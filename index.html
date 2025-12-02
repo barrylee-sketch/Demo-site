@@ -125,61 +125,251 @@
   <script>
     // ====== Vendor Original Data (Shortened Example) ======
     const vendors = [
-  { name: 'AFB', type: 'Sport' },
-  { name: '168Games', type: 'Slot' },
-  { name: '365棋牌', type: 'Card' },
-  { name: '3Sing(三昇)', type: 'Sport' },
-  { name: '9Wickets', type: 'Sport' },
-  { name: '天成TCG 东南亚彩票', type: 'Lottery' },
-  { name: '天成TCG 彩票', type: 'Lottery' },
-  { name: '天成TCG 越南彩', type: 'Lottery' },
-  { name: '世彩 GW', type: 'Lottery' },
-  { name: '凯旋棋牌 KX', type: 'Card' },
-  { name: '泰国 MP棋牌 (Mpoker)', type: 'Card' },
-  { name: '龙城越南棋牌 (V8 Poker)', type: 'Card' },
-  { name: '博乐 BoleGaming', type: 'Card' },
-  { name: 'BoleGaming 捕鱼', type: 'Fishing' },
-  { name: 'A+ (APLUS)', type: 'Sport' },
-  { name: 'AceWin', type: 'Slot' },
-  { name: 'AceWin 捕鱼', type: 'Fishing' },
-  { name: 'AceWin 棋牌', type: 'Card' },
-  { name: 'AG 电子', type: 'Slot' },
-  { name: 'AG 体育', type: 'Sport' },
-  { name: 'AG 捕鱼', type: 'Fishing' },
-  { name: 'AG 真人', type: 'Live' },
-  { name: 'Allbet 欧博', type: 'Live' },
-  { name: 'AMB_JDB', type: 'Slot' },
-  { name: 'Ameba', type: 'Slot' },
-  { name: 'AOG 斗鸡', type: 'Cockfight' },
-  { name: 'AdvantPlay', type: 'Slot' },
-  { name: 'AUG', type: 'Slot' },
-  { name: '7Mojos', type: 'Slot' },
-  { name: '7Mojos 真人', type: 'Live' },
-  { name: 'Avatar UX', type: 'Slot' },
-  { name: 'Aviatrix', type: 'Slot' },
-  { name: 'BBIN', type: 'Slot' },
-  { name: 'BBIN 捕鱼', type: 'Fishing' },
-  { name: 'BBIN 真人', type: 'Live' },
-  { name: 'BBIN 彩票', type: 'Lottery' },
-  { name: 'BBIN 棋牌', type: 'Card' },
-  { name: 'BG 大游', type: 'Slot' },
-  { name: 'BG 真人', type: 'Live' },
-  { name: 'Blueprint', type: 'Slot' },
-  { name: 'BGaming', type: 'Slot' },
-  { name: 'BNG', type: 'Slot' },
-  { name: 'BTG', type: 'Slot' },
-  { name: 'BT Gaming', type: 'Slot' },
-  { name: 'BT Gaming 捕鱼', type: 'Fishing' },
-  { name: 'BT Gaming 棋牌', type: 'Card' },
-  { name: 'BTi', type: 'Sport' },
-  { name: 'Bunfox', type: 'Slot' },
-  { name: 'Booming', type: 'Slot' },
-  { name: 'Creative Gaming', type: 'Slot' },
-  { name: 'CMDBET', type: 'Sport' },
-  { name: 'CQ9', type: 'Slot' },
-  { name: 'CQ9 捕鱼', type: 'Fishing' },
-  { name: 'CQ9 棋牌', type: 'Card' },
-  { name: 'CQ9 真人', type: 'Live' }
+  { name: 'DG (DreamGaming)', type: 'Live', logo: 'logos/dg.jpg' },
+{ name: 'DRAGOONSOFT', type: 'Slot', logo: 'logos/dragoonsoft.jpg' },
+{ name: 'E1SPORT', type: 'Esport', logo: 'logos/e1sport.jpg' },
+{ name: 'EsportBull 电竞牛', type: 'Esport', logo: 'logos/esportbull.jpg' },
+{ name: 'Evolution Gaming', type: 'Live', logo: 'logos/evolution.jpg' },
+{ name: 'EVOPLAY', type: 'Slot', logo: 'logos/evoplay.jpg' },
+{ name: 'Ezugi', type: 'Live', logo: 'logos/ezugi.jpg' },
+{ name: 'FAST SPIN', type: 'Slot', logo: 'logos/fastspin.jpg' },
+{ name: 'FAST SPIN 捕鱼', type: 'Fishing', logo: 'logos/fastspin.jpg' },
+{ name: 'FC 发財电子', type: 'Slot', logo: 'logos/fc.jpg' },
+{ name: 'FC 发財电子 捕鱼', type: 'Fishing', logo: 'logos/fc.jpg' },
+{ name: '5G FIVEG', type: 'Slot', logo: 'logos/5g.jpg' },
+{ name: 'Fantasma', type: 'Slot', logo: 'logos/fantasma.jpg' },
+{ name: 'FunTa Gaming', type: 'Slot', logo: 'logos/funta.jpg' },
+{ name: 'GA28', type: 'Cockfight', logo: 'logos/ga28.jpg' },
+{ name: 'GB 电子（皇朝）', type: 'Slot', logo: 'logos/gb.jpg' },
+{ name: 'GNS', type: 'Slot', logo: 'logos/gns.jpg' },
+{ name: 'GTF', type: 'Slot', logo: 'logos/gtf.jpg' },
+{ name: 'GTF 捕鱼', type: 'Fishing', logo: 'logos/gtf.jpg' },
+{ name: 'Hacksaw Gaming', type: 'Slot', logo: 'logos/hacksaw.jpg' },
+{ name: 'HB Habanero', type: 'Slot', logo: 'logos/habanero.jpg' },
+{ name: 'HOTROAD', type: 'Live', logo: 'logos/hotroad.jpg' },
+{ name: 'IBC 沙巴', type: 'Sport', logo: 'logos/ibc.jpg' },
+{ name: 'ILOVEU', type: 'Slot', logo: 'logos/iloveu.jpg' },
+{ name: 'IM 体育', type: 'Sport', logo: 'logos/im.jpg' },
+{ name: 'IM 电竞', type: 'Esport', logo: 'logos/im.jpg' },
+{ name: 'INJOY', type: 'Slot', logo: 'logos/injoy.jpg' },
+{ name: 'INJOY 棋牌', type: 'Card', logo: 'logos/injoy.jpg' },
+{ name: 'JDB', type: 'Slot', logo: 'logos/jdb.jpg' },
+{ name: 'JDB 捕鱼', type: 'Fishing', logo: 'logos/jdb.jpg' },
+{ name: 'JDB 棋牌', type: 'Card', logo: 'logos/jdb.jpg' },
+{ name: 'JILI', type: 'Slot', logo: 'logos/jili.jpg' },
+{ name: 'JILI 捕鱼', type: 'Fishing', logo: 'logos/jili.jpg' },
+{ name: 'Joker', type: 'Slot', logo: 'logos/joker.jpg' },
+{ name: 'Joker 捕鱼', type: 'Fishing', logo: 'logos/joker.jpg' },
+{ name: 'Jollysport', type: 'Sport', logo: 'logos/jollysport.jpg' },
+{ name: 'JJ 2J', type: 'Slot', logo: 'logos/2j.jpg' },
+{ name: 'JJ 2J 捕鱼', type: 'Fishing', logo: 'logos/2j.jpg' },
+{ name: 'KA Gaming', type: 'Slot', logo: 'logos/ka.jpg' },
+{ name: 'KA 捕鱼', type: 'Fishing', logo: 'logos/ka.jpg' },
+{ name: 'King Midas', type: 'Card', logo: 'logos/kingmidas.jpg' },
+{ name: 'KY 开元', type: 'Card', logo: 'logos/ky.jpg' },
+{ name: 'KY 捕鱼', type: 'Fishing', logo: 'logos/ky.jpg' },
+{ name: 'Ladyluck', type: 'Slot', logo: 'logos/ladyluck.jpg' },
+{ name: 'LEG 乐游', type: 'Card', logo: 'logos/leg.jpg' },
+{ name: 'LGD (DreamTech)', type: 'Slot', logo: 'logos/lgd.jpg' },
+{ name: 'Lucky Poker', type: 'Card', logo: 'logos/luckypoker.jpg' },
+{ name: 'Lucky Sports', type: 'Sport', logo: 'logos/luckysports.jpg' },
+{ name: 'LUDO 印度棋', type: 'Card', logo: 'logos/ludo.jpg' },
+{ name: 'M9Bet', type: 'Sport', logo: 'logos/m9bet.jpg' },
+{ name: 'MANCALA', type: 'Slot', logo: 'logos/mancala.jpg' },
+{ name: 'MG Plus', type: 'Slot', logo: 'logos/mgplus.jpg' },
+{ name: 'MG Plus 捕鱼', type: 'Fishing', logo: 'logos/mgplus.jpg' },
+{ name: 'MG Plus 真人', type: 'Live', logo: 'logos/mgplus.jpg' },
+{ name: 'NetEnt', type: 'Slot', logo: 'logos/netent.jpg' },
+{ name: 'NEW BBIN 体育', type: 'Sport', logo: 'logos/bbin.jpg' },
+{ name: 'Nextspin', type: 'Slot', logo: 'logos/nextspin.jpg' },
+{ name: 'NoLimitCity', type: 'Slot', logo: 'logos/nolimitcity.jpg' },
+{ name: 'Novomatic', type: 'Slot', logo: 'logos/novomatic.jpg' },
+{ name: 'OCtoplay', type: 'Slot', logo: 'logos/octoplay.jpg' },
+{ name: 'Odin 棋牌', type: 'Card', logo: 'logos/odin.jpg' },
+{ name: 'Odin Gamecock', type: 'Cockfight', logo: 'logos/odin_gamecock.jpg' },
+{ name: 'DIGMAAN', type: 'Cockfight', logo: 'logos/digmaan.jpg' },
+{ name: 'OG OrientalGame', type: 'Live', logo: 'logos/og.jpg' },
+{ name: 'Ongaming', type: 'Live', logo: 'logos/ongaming.jpg' }
+{ name: "168Games", type: "Slot", source: "原厂" },
+{ name: "AceWin", type: "Slot", source: "原厂" },
+{ name: "AG (Asia-Gaming)", type: "Slot", source: "原厂" },
+{ name: "AMB_JDB", type: "Slot", source: "原厂" },
+{ name: "Ameba", type: "Slot", source: "原厂" },
+{ name: "AdvantPlay", type: "Slot", source: "原厂" },
+{ name: "AUG", type: "Slot", source: "原厂" },
+{ name: "7Mojos", type: "Slot", source: "DC" },
+{ name: "Avatar UX", type: "Slot", source: "DC" },
+{ name: "Aviatrix", type: "Slot", source: "原厂" },
+
+{ name: "BBIN (版本1)", type: "Slot", source: "原厂(1)" },
+{ name: "BBIN (版本2)", type: "Slot", source: "原厂(2)" },
+
+{ name: "Blueprint", type: "Slot", source: "DC" },
+{ name: "BGaming", type: "Slot", source: "DC" },
+{ name: "BNG", type: "Slot", source: "原厂" },
+
+{ name: "BTG (Big Time Gaming)", type: "Slot", source: "AWC" },
+{ name: "BT Gaming", type: "Slot", source: "原厂" },
+
+{ name: "Bunfox (天狐)", type: "Slot", source: "原厂" },
+{ name: "Booming", type: "Slot", source: "DC" },
+
+{ name: "Creative Gaming (CG)", type: "Slot", source: "原厂" },
+{ name: "Creative Gaming (CG)", type: "Slot", source: "AWC" },
+
+{ name: "CQ9", type: "Slot", source: "原厂" },
+{ name: "CRASH88", type: "Slot", source: "AWC" },
+
+{ name: "DB (OB 熊猫)", type: "Slot", source: "原厂" },
+
+{ name: "DRAGOONSOFT", type: "Slot", source: "AWC" },
+
+{ name: "EVOPLAY", type: "Slot", source: "原厂" },
+{ name: "EVOPLAY", type: "Slot", source: "DC" },
+
+{ name: "FAST SPIN", type: "Slot", source: "AWC" },
+
+{ name: "FC发财电子", type: "Slot", source: "原厂" },
+
+{ name: "5G (FIVEG)", type: "Slot", source: "AWC" },
+
+{ name: "Fantasma", type: "Slot", source: "DC" },
+{ name: "FunTa Gaming", type: "Slot", source: "DC" },
+
+{ name: "GB 电子（HC 皇朝）", type: "Slot", source: "原厂" },
+
+{ name: "GNS", type: "Slot", source: "原厂" },
+
+{ name: "GTF", type: "Slot", source: "AWC" },
+{ name: "GTF", type: "Slot", source: "JDB" },
+
+{ name: "Hacksaw Gaming", type: "Slot", source: "DC" },
+{ name: "Hacksaw Gaming", type: "Slot", source: "AWC" },
+
+{ name: "HB (Habanero)", type: "Slot", source: "原厂" },
+
+{ name: "ILOVEU", type: "Slot", source: "AWC" },
+
+{ name: "INJOY", type: "Slot", source: "JDB" },
+
+{ name: "JDB", type: "Slot", source: "原厂" },
+{ name: "JILI", type: "Slot", source: "AWC" },
+
+{ name: "Joker", type: "Slot", source: "原厂" },
+{ name: "Joker", type: "Slot", source: "AWC" },
+
+{ name: "JJ (2J)", type: "Slot", source: "AWC" },
+{ name: "JJ (2J)", type: "Slot", source: "原厂" },
+
+{ name: "KA Gaming", type: "Slot", source: "原厂" },
+
+{ name: "Ladyluck", type: "Slot", source: "AWC" },
+
+{ name: "LGD (DreamTech)", type: "Slot", source: "原厂" },
+
+{ name: "MANCALA", type: "Slot", source: "JDB" },
+
+{ name: "MG Plus (Microgaming Plus)", type: "Slot", source: "原厂" },
+
+{ name: "Netent", type: "Slot", source: "AWC" },
+{ name: "Netent", type: "Slot", source: "DC" },
+
+{ name: "Nextspin", type: "Slot", source: "原厂" },
+
+{ name: "NoLimitCity", type: "Slot", source: "AWC" },
+{ name: "NoLimitCity", type: "Slot", source: "DC" },
+
+{ name: "Novomatic", type: "Slot", source: "DC" },
+
+{ name: "OCtoplay", type: "Slot", source: "DC" },
+{ name: "OCtoplay", type: "Slot", source: "AWC" },
+
+{ name: "ONLYPLAY", type: "Slot", source: "JDB" },
+
+{ name: "PGS (PEGASUS)", type: "Slot", source: "原厂" },
+
+{ name: "PGSOFT", type: "Slot", source: "原厂" },
+{ name: "PGSOFT", type: "Slot", source: "AWC" },
+{ name: "PGSOFT", type: "Slot", source: "SBOBET" },
+
+{ name: "Play n GO", type: "Slot", source: "原厂" },
+{ name: "Play n GO", type: "Slot", source: "DC" },
+
+{ name: "Peter & Sons", type: "Slot", source: "DC" },
+
+{ name: "Play8", type: "Slot", source: "AWC" },
+
+{ name: "PP (Pragmatic Play)", type: "Slot", source: "原厂" },
+{ name: "PP (Pragmatic Play)", type: "Slot", source: "AWC" },
+{ name: "PP (Pragmatic Play) PX", type: "Slot", source: "原厂 (PHP Only)" },
+
+{ name: "PT (Playtech)", type: "Slot", source: "原厂" },
+
+{ name: "Radi8 R8", type: "Slot", source: "原厂" },
+
+{ name: "RedTigerGaming", type: "Slot", source: "AWC" },
+{ name: "RedTigerGaming", type: "Slot", source: "DC" },
+
+{ name: "Relax Gaming", type: "Slot", source: "DC" },
+{ name: "Relax Gaming", type: "Slot", source: "AWC" },
+
+{ name: "RiCH88", type: "Slot", source: "原厂" },
+
+{ name: "Royalgclubgame RSG", type: "Slot", source: "原厂" },
+
+{ name: "RTG (RealTimeGaming)", type: "Slot", source: "原厂" },
+
+{ name: "SEA Gaming", type: "Slot", source: "原厂" },
+
+{ name: "Simple Play", type: "Slot", source: "原厂" },
+
+{ name: "Skywind", type: "Slot", source: "原厂" },
+
+{ name: "Smartsoft", type: "Slot", source: "DC" },
+
+{ name: "Slotmill", type: "Slot", source: "DC" },
+
+{ name: "Spade Gaming", type: "Slot", source: "原厂" },
+{ name: "Spade Gaming", type: "Slot", source: "AWC" },
+
+{ name: "SplusGaming", type: "Slot", source: "原厂" },
+
+{ name: "SPRIBE", type: "Slot", source: "原厂" },
+{ name: "SPRIBE", type: "Slot", source: "AWC" },
+{ name: "SPRIBE", type: "Slot", source: "DC" },
+{ name: "SPRIBE", type: "Slot", source: "JDB" },
+
+{ name: "TADA", type: "Slot", source: "原厂" },
+{ name: "TADA", type: "Slot", source: "AWC" },
+
+{ name: "ThunderKick", type: "Slot", source: "DC" },
+
+{ name: "TP (Topplayer)", type: "Slot", source: "原厂" },
+
+{ name: "TTG (TopTrendGaming)", type: "Slot", source: "原厂" },
+
+{ name: "Turbo", type: "Slot", source: "DC" },
+
+{ name: "VA Gaming", type: "Slot", source: "原厂" },
+
+{ name: "VG 财神棋牌", type: "Slot", source: "原厂" },
+
+{ name: "Voltent (Wazdan)", type: "Slot", source: "DC" },
+
+{ name: "Winfast", type: "Slot", source: "DC" },
+
+{ name: "XIN 电子", type: "Slot", source: "原厂" },
+
+{ name: "YellowBat", type: "Slot", source: "AWC" },
+{ name: "YellowBat", type: "Slot", source: "JDB" },
+
+{ name: "Yggdrasil", type: "Slot", source: "DC" },
+{ name: "Yggdrasil", type: "Slot", source: "AWC" },
+
+{ name: "Yolted", type: "Slot", source: "DC" },
+
+{ name: "Yoplay", type: "Slot", source: "原厂" }
+
   // ...後續將全部 300+ 逐步加入
 ];
 
