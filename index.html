@@ -5,102 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gaming Demo Showcase</title>
   <style>
-    body {
-      margin: 0;
-      background: #0b0b0d;
-      font-family: Arial, sans-serif;
-      color: #eee;
-      display: flex;
-    }
-    /* --- Sidebar --- */
-    #sidebar {
-      width: 260px;
-      background: #111;
-      padding: 20px;
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      overflow-y: auto;
-      border-right: 1px solid #222;
-    }
-    #sidebar h2 {
-      margin-top: 0;
-      color: #7efcff;
-    }
-    .category {
-      margin: 12px 0;
-      font-size: 16px;
-      cursor: pointer;
-      padding: 6px 8px;
-      border-radius: 6px;
-      transition: 0.2s;
-    }
-    .category:hover {
-      background: #222;
-    }
-
-    /* --- Main Content --- */
-    #main {
-      margin-left: 260px;
-      padding: 25px;
-      flex: 1;
-    }
-
-    /* Search bar */
-    #searchBox {
-      width: 100%;
-      padding: 12px;
-      border-radius: 6px;
-      border: none;
-      margin-bottom: 20px;
-      background: #1a1a1d;
-      color: #fff;
-      font-size: 16px;
-    }
-
-    /* Vendor Cards */
-    .vendorGrid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-      gap: 18px;
-    }
-    .card {
-      background: #141416;
-      padding: 18px;
-      border-radius: 12px;
-      text-align: center;
-      border: 1px solid #222;
-      transition: 0.3s;
-    }
-    .card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 0 12px rgba(0,255,255,0.25);
-    }
-    .logo {
-      width: 120px;
-      height: 60px;
-      background: #333;
-      margin: 0 auto 10px;
-      border-radius: 6px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #777;
-      font-size: 12px;
-    }
-
-    .typeTag {
-      padding: 4px 10px;
-      background: #0a5;
-      display: inline-block;
-      border-radius: 4px;
-      font-size: 12px;
-      margin-bottom: 6px;
-    }
+    body { margin: 0; background: #0b0b0d; font-family: Arial, sans-serif; color: #eee; display: flex; }
+    #sidebar { width: 260px; background: #111; padding: 20px; position: fixed; top: 0; bottom: 0; overflow-y: auto; border-right: 1px solid #222; }
+    #sidebar h2 { margin-top: 0; color: #7efcff; }
+    .category { margin: 12px 0; font-size: 16px; cursor: pointer; padding: 6px 8px; border-radius: 6px; transition: 0.2s; }
+    .category:hover { background: #222; }
+    #main { margin-left: 260px; padding: 25px; flex: 1; }
+    #searchBox { width: 100%; padding: 12px; border-radius: 6px; border: none; margin-bottom: 20px; background: #1a1a1d; color: #fff; font-size: 16px; }
+    .vendorGrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 18px; }
+    .card { background: #141416; padding: 18px; border-radius: 12px; text-align: center; border: 1px solid #222; transition: 0.3s; }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 0 12px rgba(0,255,255,0.25); }
+    .logo { width: 120px; height: 60px; background: #333; margin: 0 auto 10px; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #777; font-size: 12px; }
+    .typeTag { padding: 4px 10px; background: #0a5; display: inline-block; border-radius: 4px; font-size: 12px; margin-bottom: 6px; }
   </style>
 </head>
 <body>
-  <!-- Sidebar -->
   <div id="sidebar">
     <h2>分類 Category</h2>
     <div class="category" onclick="filterCategory('Sport')">🏀 Sport 体育</div>
@@ -115,96 +34,87 @@
     <div class="category" onclick="filterCategory('All')">🌐 All 全部</div>
   </div>
 
-  <!-- Main Content -->
   <div id="main">
     <input id="searchBox" placeholder="搜尋遊戲商名稱 (ex: CQ9, PP, JILI)..." oninput="searchVendors()" />
-
     <div id="vendorContainer" class="vendorGrid"></div>
   </div>
 
   <script>
-    // ====== Vendor Original Data (Shortened Example) ======
-   const vendors = [
-  // ---- Slot 电子（开始扩增） ----
-  { name: '168Games_原厂', type: 'Slot' },
-  { name: 'AceWin_原厂', type: 'Slot' },
-  { name: 'AG (Asia-Gaming) 电子', type: 'Slot' },
-  { name: 'AMB_JDB', type: 'Slot' },
-  { name: 'Ameba_原厂', type: 'Slot' },
-  { name: 'AdvantPlay_原厂', type: 'Slot' },
-  { name: 'AUG_原厂', type: 'Slot' },
-  { name: '7Mojos_DC', type: 'Slot' },
-  { name: 'Avatar UX_DC', type: 'Slot' },
-  { name: 'Aviatrix_原厂', type: 'Slot' },
-  { name: 'BBIN_原厂(1)', type: 'Slot' },
-  { name: 'BBIN_原厂(2)', type: 'Slot' },
-  { name: 'Blueprint_DC', type: 'Slot' },
-  { name: 'BGaming_DC', type: 'Slot' },
-  { name: 'BNG_原厂', type: 'Slot' },
-  { name: 'BTG (Big Time Gaming)_AWC', type: 'Slot' },
-  { name: 'BTG (BT Gaming)_原厂', type: 'Slot' },
-  { name: 'CG (Creative Gaming)_原厂', type: 'Slot' },
-  { name: 'CG (Creative Gaming)_AWC', type: 'Slot' },
-  { name: 'CQ9_原厂', type: 'Slot' },
-
-  // ---- Live 真人（范例，避免空白页面） ----
-  { name: 'AG 真人', type: 'Live' },
-  { name: 'Allbet欧博_原厂', type: 'Live' },
-  { name: '7Mojos_DC Live', type: 'Live' },
-
-  // ---- Sport 体育（范例） ----
-  { name: 'AFB_原厂', type: 'Sport' },
-  { name: '3Sing(三昇)_原厂', type: 'Sport' },
-  { name: '9Wickets', type: 'Sport' },
-
-  // ---- Card 棋牌（范例） ----
-  { name: '365棋牌', type: 'Card' },
-
-  // ---- Fishing 捕鱼（范例） ----
-  { name: 'BBIN 捕鱼', type: 'Fishing' },
-
-  // ---- Lottery 彩票（范例） ----
-  { name: '天成TCG 彩票', type: 'Lottery' },
-
-  // ---- Cockfighting 斗鸡（范例） ----
-  { name: 'AOG_原厂', type: 'Cockfight' }
+    const vendors = [
+  { name: 'AFB_原厂', type: 'Sport', logo: 'logos/AFB.jpg' },
+  { name: '168Games_原厂', type: 'Slot', logo: 'logos/168Games.jpg' },
+  { name: '365棋牌', type: 'Card', logo: 'logos/365棋牌.jpg' },
+  { name: '3Sing(三昇)_原厂', type: 'Sport', logo: 'logos/3Sing.jpg' },
+  { name: '9Wickets', type: 'Sport', logo: 'logos/9Wickets.jpg' },
+  { name: '天成TCG 东南亚彩票_原厂', type: 'Lottery', logo: 'logos/TCG_SEA.jpg' },
+  { name: '天成TCG 彩票_原厂', type: 'Lottery', logo: 'logos/TCG.jpg' },
+  { name: '天成TCG 越南彩_原厂', type: 'Lottery', logo: 'logos/TCG_VN.jpg' },
+  { name: '世彩 GW', type: 'Lottery', logo: 'logos/GW.jpg' },
+  { name: '凯旋棋牌 KX', type: 'Card', logo: 'logos/KX.jpg' },
+  { name: '泰国 MP棋牌 (Mpoker)_原厂', type: 'Card', logo: 'logos/Mpoker.jpg' },
+  { name: '龙城越南棋牌 (V8 Poker)_原厂', type: 'Card', logo: 'logos/V8Poker.jpg' },
+  { name: '博乐 BoleGaming 原厂', type: 'Card', logo: 'logos/Bole.jpg' },
+  { name: '博乐捕鱼', type: 'Fishing', logo: 'logos/BoleFishing.jpg' },
+  { name: 'A+ (APLUS)', type: 'Sport', logo: 'logos/APLUS.jpg' },
+  { name: 'AceWin_原厂', type: 'Slot', logo: 'logos/AceWin.jpg' },
+  { name: 'AceWin 捕鱼', type: 'Fishing', logo: 'logos/AceWin_Fish.jpg' },
+  { name: 'AceWin 棋牌', type: 'Card', logo: 'logos/AceWin_Card.jpg' },
+  { name: 'AG 电子', type: 'Slot', logo: 'logos/AG_Slot.jpg' },
+  { name: 'AG 体育', type: 'Sport', logo: 'logos/AG_Sport.jpg' },
+  { name: 'AG 捕鱼', type: 'Fishing', logo: 'logos/AG_Fish.jpg' },
+  { name: 'AG 真人', type: 'Live', logo: 'logos/AG_Live.jpg' },
+  { name: 'Allbet 歐博_原厂', type: 'Live', logo: 'logos/Allbet.jpg' },
+  { name: 'AMB_JDB', type: 'Slot', logo: 'logos/AMB_JDB.jpg' },
+  { name: 'Ameba_原厂', type: 'Slot', logo: 'logos/Ameba.jpg' },
+  { name: 'AOG_原厂', type: 'Cockfight', logo: 'logos/AOG.jpg' },
+  { name: 'AdvantPlay_原厂', type: 'Slot', logo: 'logos/AdvantPlay.jpg' },
+  { name: 'AUG_原厂', type: 'Slot', logo: 'logos/AUG.jpg' },
+  { name: '7Mojos_DC', type: 'Slot', logo: 'logos/7Mojos.jpg' },
+  { name: '7Mojos 真人', type: 'Live', logo: 'logos/7Mojos_Live.jpg' },
+  { name: 'Avatar UX_DC', type: 'Slot', logo: 'logos/AvatarUX.jpg' },
+  { name: 'Aviatrix＿原厂', type: 'Slot', logo: 'logos/Aviatrix.jpg' },
+  { name: 'BBIN_原厂(1)', type: 'Slot', logo: 'logos/BBIN1.jpg' },
+  { name: 'BBIN 捕鱼(1)', type: 'Fishing', logo: 'logos/BBIN1_Fish.jpg' },
+  { name: 'BBIN 真人(1)', type: 'Live', logo: 'logos/BBIN1_Live.jpg' },
+  { name: 'BBIN 彩票(1)', type: 'Lottery', logo: 'logos/BBIN1_Lottery.jpg' },
+  { name: 'BBIN 棋牌(1)', type: 'Card', logo: 'logos/BBIN1_Card.jpg' },
+  { name: 'BBIN_原厂(2)', type: 'Slot', logo: 'logos/BBIN2.jpg' },
+  { name: 'BG 大游_原厂', type: 'Slot', logo: 'logos/BG.jpg' },
+  { name: 'BG 真人', type: 'Live', logo: 'logos/BG_Live.jpg' },
+  { name: 'Blueprint_DC', type: 'Slot', logo: 'logos/Blueprint.jpg' },
+  { name: 'BGaming_DC', type: 'Slot', logo: 'logos/BGaming.jpg' },
+  { name: 'BNG_原厂', type: 'Slot', logo: 'logos/BNG.jpg' },
+  { name: 'BTG (Big Time Gaming)_AWC', type: 'Slot', logo: 'logos/BTG.jpg' },
+  { name: 'BT Gaming 原厂', type: 'Slot', logo: 'logos/BTGaming.jpg' },
+  { name: 'BT Gaming 捕鱼', type: 'Fishing', logo: 'logos/BTGaming_Fish.jpg' },
+  { name: 'BT Gaming 棋牌', type: 'Card', logo: 'logos/BTGaming_Card.jpg' },
+  { name: 'BTi_原厂', type: 'Sport', logo: 'logos/BTi.jpg' },
+  { name: 'Bunfox (天狐)_原厂', type: 'Slot', logo: 'logos/Bunfox.jpg' }
+  // 其餘約 250+ 將持續為你追加
 ];
+    render(vendors);
 
-
-  // ...後續將全部 300+ 逐步加入
-];
-
-    // ====== Render Vendors ======
     function render(list) {
       const box = document.getElementById('vendorContainer');
       box.innerHTML = '';
       list.forEach(v => {
         box.innerHTML += `
           <div class="card" data-type="${v.type}">
-            <div class="logo">LOGO</div>
+            <div class="logo">${v.logo ? `<img src="${v.logo}" style="max-width:100%; max-height:100%;"/>` : 'LOGO'}</div>
             <div class="typeTag">${v.type}</div>
             <div>${v.name}</div>
           </div>`;
       });
     }
 
-    render(vendors);
-
-    // ====== Category Filter ======
     function filterCategory(cat) {
-      if (cat === 'All') {
-        render(vendors);
-      } else {
-        render(vendors.filter(v => v.type === cat));
-      }
+      if (cat === 'All') render(vendors);
+      else render(vendors.filter(v => v.type === cat));
     }
 
-    // ====== Search Filter ======
     function searchVendors() {
       const keyword = document.getElementById('searchBox').value.toLowerCase();
-      render(
-        vendors.filter(v => v.name.toLowerCase().includes(keyword))
-      );
+      render(vendors.filter(v => v.name.toLowerCase().includes(keyword)));
     }
   </script>
 </body>
