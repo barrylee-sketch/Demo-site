@@ -39,8 +39,8 @@
     <div id="vendorContainer" class="vendorGrid"></div>
   </div>
 
-  <script>
-    const vendors = [
+ <script>
+const vendors = [
   { name: 'AFB_原厂', type: 'Sport', logo: 'logos/AFB.jpg' },
   { name: '168Games_原厂', type: 'Slot', logo: 'logos/168Games.jpg' },
   { name: '365棋牌', type: 'Card', logo: 'logos/365棋牌.jpg' },
@@ -89,7 +89,8 @@
   { name: 'BT Gaming 捕鱼', type: 'Fishing', logo: 'logos/BTGaming_Fish.jpg' },
   { name: 'BT Gaming 棋牌', type: 'Card', logo: 'logos/BTGaming_Card.jpg' },
   { name: 'BTi_原厂', type: 'Sport', logo: 'logos/BTi.jpg' },
-  { name: 'Bunfox (天狐)_原厂', type: 'Slot', logo: 'logos/Bunfox.jpg' }
+  { name: 'Bunfox (天狐)_原厂', type: 'Slot', logo: 'logos/Bunfox.jpg' },
+
   { name: 'Booming_DC', type: 'Slot', logo: 'logos/Booming.jpg' },
   { name: 'CG (Creative Gaming)_原厂', type: 'Slot', logo: 'logos/CG.jpg' },
   { name: 'CG (Creative Gaming)_AWC', type: 'Slot', logo: 'logos/CG_AWC.jpg' },
@@ -123,35 +124,33 @@
   { name: 'Joker_原厂', type: 'Slot', logo: 'logos/Joker.jpg' },
   { name: 'Jollysport_原厂', type: 'Sport', logo: 'logos/Jollysport.jpg' },
   { name: 'KA Gaming_原厂', type: 'Slot', logo: 'logos/KA.jpg' },
-  { name: 'KY开元_原厂', type: 'Card', logo: 'logos/KY.jpg' },
- 
+  { name: 'KY开元_原厂', type: 'Card', logo: 'logos/KY.jpg' }
 ];
-    render(vendors);
 
-    function render(list) {
-      const box = document.getElementById('vendorContainer');
-      box.innerHTML = '';
-      list.forEach(v => {
-        box.innerHTML += `
-          <div class="card" data-type="${v.type}">
-            <div class="logo">${v.logo ? `<img src="${v.logo}" style="max-width:100%; max-height:100%;"/>` : 'LOGO'}</div>
-            <div class="typeTag">${v.type}</div>
-            <div>${v.name}</div>
-          </div>`;
-      });
-    }
+render(vendors);
 
-    function filterCategory(cat) {
-      if (cat === 'All') render(vendors);
-      else render(vendors.filter(v => v.type === cat));
-    }
+function render(list) {
+  const box = document.getElementById('vendorContainer');
+  box.innerHTML = '';
+  list.forEach(v => {
+    box.innerHTML += `
+      <div class="card" data-type="${v.type}">
+        <div class="logo">
+          ${v.logo ? `<img src="${v.logo}" style="max-width:100%; max-height:100%;"/>` : 'LOGO'}
+        </div>
+        <div class="typeTag">${v.type}</div>
+        <div>${v.name}</div>
+      </div>`;
+  });
+}
 
-    function searchVendors() {
-      const keyword = document.getElementById('searchBox').value.toLowerCase();
-      render(vendors.filter(v => v.name.toLowerCase().includes(keyword)));
-    }
-  </script>
-</body>
-</html>
+function filterCategory(cat) {
+  if (cat === 'All') render(vendors);
+  else render(vendors.filter(v => v.type === cat));
+}
 
-  
+function searchVendors() {
+  const keyword = document.getElementById('searchBox').value.toLowerCase();
+  render(vendors.filter(v => v.name.toLowerCase().includes(keyword)));
+}
+</script>
