@@ -1,1 +1,69 @@
+[
+  { "name": "AFB", "type": "Sport", "logo": "logos/AFB.jpg" },
+  { "name": "168Games", "type": "Slot", "logo": "logos/168Games.jpg" },
+  { "name": "365棋牌", "type": "Card", "logo": "logos/365棋牌.jpg" },
+  { "name": "3Sing (三昇)", "type": "Sport", "logo": "logos/3Sing.jpg" },
+  { "name": "9Wickets", "type": "Sport", "logo": "logos/9Wickets.jpg" },
+
+  { "name": "天成TCG", "type": "Lottery", "logo": "logos/TCG.jpg" },
+  { "name": "世彩 GW", "type": "Lottery", "logo": "logos/GW.jpg" },
+
+  { "name": "凯旋棋牌 KX", "type": "Card", "logo": "logos/KX.jpg" },
+  { "name": "Mpoker (泰国 MP棋牌)", "type": "Card", "logo": "logos/Mpoker.jpg" },
+  { "name": "V8 Poker (龙城越南棋牌)", "type": "Card", "logo": "logos/V8Poker.jpg" },
+
+  { "name": "博乐 BoleGaming", "type": "Card", "logo": "logos/Bole.jpg" },
+  { "name": "博乐捕鱼", "type": "Fishing", "logo": "logos/BoleFishing.jpg" },
+
+  { "name": "APLUS", "type": "Sport", "logo": "logos/APLUS.jpg" },
+
+  { "name": "AceWin", "type": "Slot", "logo": "logos/AceWin.jpg" },
+  { "name": "AceWin 捕鱼", "type": "Fishing", "logo": "logos/AceWin_Fish.jpg" },
+  { "name": "AceWin 棋牌", "type": "Card", "logo": "logos/AceWin_Card.jpg" },
+
+  { "name": "AG", "type": "Live", "logo": "logos/AG_Live.jpg" },
+  { "name": "AG 电子", "type": "Slot", "logo": "logos/AG_Slot.jpg" },
+  { "name": "AG 体育", "type": "Sport", "logo": "logos/AG_Sport.jpg" },
+  { "name": "AG 捕鱼", "type": "Fishing", "logo": "logos/AG_Fish.jpg" },
+
+  { "name": "Allbet 欧博", "type": "Live", "logo": "logos/Allbet.jpg" },
+
+  { "name": "AMB_JDB", "type": "Slot", "logo": "logos/AMB_JDB.jpg" },
+  { "name": "Ameba", "type": "Slot", "logo": "logos/Ameba.jpg" },
+
+  { "name": "AOG 斗鸡", "type": "Cockfight", "logo": "logos/AOG.jpg" },
+  { "name": "AdvantPlay", "type": "Slot", "logo": "logos/AdvantPlay.jpg" },
+  { "name": "AUG", "type": "Slot", "logo": "logos/AUG.jpg" },
+
+  { "name": "7Mojos", "type": "Slot", "logo": "logos/7Mojos.jpg" },
+  { "name": "7Mojos 真人", "type": "Live", "logo": "logos/7Mojos_Live.jpg" },
+
+  { "name": "AvatarUX", "type": "Slot", "logo": "logos/AvatarUX.jpg" },
+  { "name": "Aviatrix", "type": "Slot", "logo": "logos/Aviatrix.jpg" },
+
+  { "name": "BBIN", "type": "Slot", "logo": "logos/BBIN.jpg" },
+  { "name": "BBIN 捕鱼", "type": "Fishing", "logo": "logos/BBIN_Fish.jpg" },
+  { "name": "BBIN 真人", "type": "Live", "logo": "logos/BBIN_Live.jpg" },
+  { "name": "BBIN 彩票", "type": "Lottery", "logo": "logos/BBIN_Lottery.jpg" },
+  { "name": "BBIN 棋牌", "type": "Card", "logo": "logos/BBIN_Card.jpg" },
+
+  { "name": "BG 大游", "type": "Slot", "logo": "logos/BG.jpg" },
+  { "name": "BG 真人", "type": "Live", "logo": "logos/BG_Live.jpg" },
+
+  { "name": "Blueprint", "type": "Slot", "logo": "logos/Blueprint.jpg" },
+  { "name": "BGaming", "type": "Slot", "logo": "logos/BGaming.jpg" },
+  { "name": "BNG", "type": "Slot", "logo": "logos/BNG.jpg" },
+
+  { "name": "BTG", "type": "Slot", "logo": "logos/BTG.jpg" },
+  { "name": "BT Gaming", "type": "Slot", "logo": "logos/BTGaming.jpg" },
+  { "name": "BT Gaming 捕鱼", "type": "Fishing", "logo": "logos/BTGaming_Fish.jpg" },
+  { "name": "BT Gaming 棋牌", "type": "Card", "logo": "logos/BTGaming_Card.jpg" },
+
+  { "name": "BTi", "type": "Sport", "logo": "logos/BTi.jpg" },
+  { "name": "Bunfox 天狐", "type": "Slot", "logo": "logos/Bunfox.jpg" },
+
+  { "name": "Booming", "type": "Slot", "logo": "logos/Booming.jpg" },
+  { "name": "Creative Gaming", "type": "Slot", "logo": "logos/CG.jpg" },
+  { "name": "CMDBET", "type": "Sport", "logo": "logos/CMDBET.jpg" }
+]
 
