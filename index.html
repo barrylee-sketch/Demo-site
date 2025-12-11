@@ -34,10 +34,10 @@
     .logo-wrap img{max-width:100%;max-height:100%}
     .title{font-weight:700;margin-bottom:8px;text-align:center}
     .type{font-size:12px;color:var(--muted);margin-bottom:10px}
+    .meta{font-size:12px;color:var(--muted);margin-top:6px}
     .footer{margin-top:auto;display:flex;gap:8px;width:100%;justify-content:center}
     .demo-btn{background:#0b0f16;color:#fff;padding:8px 12px;border-radius:12px;border:0;cursor:pointer;box-shadow:0 6px 22px rgba(0,0,0,0.6);transition:all .12s}
     .demo-btn.glow{box-shadow:0 8px 36px rgba(0,245,224,0.18),0 0 12px rgba(0,245,224,0.08);background:linear-gradient(90deg,#021a16,#003b37)}
-    .meta{font-size:12px;color:var(--muted);margin-top:8px}
     /* responsive */
     @media(max-width:900px){
       .sidebar{display:none}
@@ -52,17 +52,16 @@
       <div class="search"><input id="searchInput" placeholder="搜尋遊戲商或關鍵字..." /></div>
       <div id="categories"></div>
       <div style="height:32px"></div>
-      <div style="font-size:12px;color:#7f8a8c">說明：LOGO 占位請放在 /logos/*.jpg<br>Demo URL 與 帐密請在 vendors.json 填入</div>
+      <div style="font-size:12px;color:#7f8a8c">
+        說明：LOGO 請放在 /logos/*.jpg<br>
+        Demo URL 與帳密請在 vendors.json 填入
+      </div>
     </aside>
 
     <main class="main">
       <div class="tools">
-        <div style="flex:1">
-          <strong id="resultCount">Loading...</strong>
-        </div>
-        <div>
-          <button class="button" id="refreshBtn">Refresh</button>
-        </div>
+        <div style="flex:1"><strong id="resultCount">Loading...</strong></div>
+        <button class="button" id="refreshBtn">Refresh</button>
       </div>
 
       <section id="grid" class="grid"></section>
@@ -70,33 +69,18 @@
   </div>
 
 <script>
-/*
-  使用方法:
-  1) 在 repo 根目錄建立 /data/vendors.json (或放在同目錄)
-  2) 在 repo 建立 /logos/ 並上傳 JPG 檔名對應 vendors.json 裡的 logo 欄 (例如 logos/CQ9.jpg)
-  3) index.html 會 fetch('/data/vendors.json') 載入
-  4) vendors.json 的每個物件格式:
-     { "name":"CQ9", "type":"Slot", "logo":"logos/CQ9.jpg", "demo":"https://...", "account":"demo", "password":"Demo123" }
-*/
-
-/* 先定義分類順序（會自動從 vendors.json 內抓取實際分類） */
+/* 分类排序（可自行扩充） */
 const CATEGORY_ORDER = ['All','Slot','Live','Sport','Fishing','Card','Lottery','Cockfight','Esport','Virtual'];
 
-/* load vendors.json（改路徑時請同步修改） */
+/* 载入 vendors.json */
 async function loadVendors(){
   try {
     const res = await fetch('vendors/vendors.json', {cache:'no-store'});
-
-    if(!res.ok) throw new Error('vendors.json not found or fetch error: ' + res.status);
-    const data = await res.json();
-    return data;
+    if(!res.ok) throw new Error('vendors.json not found: ' + res.status);
+    return await res.json();
   } catch (e) {
     console.error(e);
-    // fallback: 小示例資料，避免完全空白
-    return [
-      {"name":"CQ9","type":"Slot","logo":"logos/CQ9.jpg","demo":"","account":"","password":""},
-      {"name":"JILI","type":"Slot","logo":"logos/JILI.jpg","demo":"","account":"","password":""}
-    ];
+    return [];
   }
 }
 
@@ -104,59 +88,94 @@ async function loadVendors(){
 let ALL_VENDORS = [];
 let ACTIVE_CATEGORY = 'All';
 
-/* render category list 左側分類欄 */
+/* 渲染左侧分类栏 */
 function renderCategories(vendors){
   const cats = Array.from(new Set(vendors.map(v=>v.type))).sort();
   const container = document.getElementById('categories');
   container.innerHTML = '';
-  // inject ordered categories first
+
   CATEGORY_ORDER.forEach(c=>{
     if(c==='All' || cats.includes(c)){
       const d = document.createElement('div');
-      d.className='category' + (c===ACTIVE_CATEGORY? ' active':'');
-      d.textContent = c==='All' ? '🌐 全部' : c;
-      d.onclick = ()=>{ ACTIVE_CATEGORY = c; document.querySelectorAll('.category').forEach(el=>el.classList.remove('active')); d.classList.add('active'); filterAndRender(); }
+      d.className = 'category' + (c===ACTIVE_CATEGORY ? ' active' : '');
+      d.textContent = c === 'All' ? '🌐 全部' : c;
+      d.onclick = () => {
+        ACTIVE_CATEGORY = c;
+        document.querySelectorAll('.category').forEach(el=>el.classList.remove('active'));
+        d.classList.add('active');
+        filterAndRender();
+      };
       container.appendChild(d);
     }
   });
 }
 
-/* build card HTML */
+/* 生成卡片 */
 function makeCard(v){
   const div = document.createElement('div');
   div.className='card';
-  const logoWrap = document.createElement('div'); logoWrap.className='logo-wrap';
-  const logoContain = document.createElement('div'); logoContain.className='logo-wrap-inner';
-  const logoBox = document.createElement('div'); logoBox.className='logo-wrap';
+
+  const logo = document.createElement('div');
+  logo.className='logo-wrap';
   const img = document.createElement('img');
   img.alt = v.name;
-  img.onerror = function(){ this.src = 'data:image/svg+xml;utf8,' + encodeURIComponent('<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"160\"><rect width=\"100%\" height=\"100%\" fill=\"#0d0d0f\"/><text x=\"50%\" y=\"50%\" fill=\"#666\" font-size=\"14\" text-anchor=\"middle\" alignment-baseline=\"middle\">'+v.name+'</text></svg>');}
   img.src = v.logo || 'logos/placeholder.jpg';
-  img.style.maxWidth='100%'; img.style.maxHeight='100%';
-  const logoFrame = document.createElement('div'); logoFrame.className='logo';
-  logoFrame.appendChild(img);
+  img.onerror = function(){
+    this.src = 'data:image/svg+xml;utf8,' + encodeURIComponent(
+      `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="160">
+         <rect width="100%" height="100%" fill="#0d0d0f"/>
+         <text x="50%" y="50%" fill="#666" font-size="14" text-anchor="middle" alignment-baseline="middle">${v.name}</text>
+       </svg>`
+    );
+  };
+  logo.appendChild(img);
 
-  const title = document.createElement('div'); title.className='title'; title.textContent = v.name;
-  const type = document.createElement('div'); type.className='type'; type.textContent = v.type;
-  const meta = document.createElement('div'); meta.className='meta'; meta.textContent = v.source?('Source: '+v.source):'';
+  const title = document.createElement('div');
+  title.className='title';
+  title.textContent = v.name;
 
-  const footer = document.createElement('div'); footer.className='footer';
-  const demoBtn = document.createElement('button'); demoBtn.className='demo-btn glow'; demoBtn.textContent='Open Demo';
-  demoBtn.onclick = ()=>{ if(v.demo) window.open(v.demo,'_blank'); else alert('Demo URL 未設定'); };
-  const credBtn = document.createElement('button'); credBtn.className='demo-btn'; credBtn.textContent='Show Cred';
-  credBtn.onclick = ()=>{ alert('Account: ' + (v.account||'') + '\\nPassword: ' + (v.password||'')); };
+  const type = document.createElement('div');
+  type.className='type';
+  type.textContent = v.type;
 
-  footer.appendChild(demoBtn); footer.appendChild(credBtn);
+  const meta = document.createElement('div');
+  meta.className='meta';
+  meta.textContent = v.source ? 'Source: '+v.source : '';
 
-  div.appendChild(logoFrame);
-  div.appendChild(type);
+  const footer = document.createElement('div');
+  footer.className='footer';
+
+  const btnDemo = document.createElement('button');
+  btnDemo.className='demo-btn glow';
+  btnDemo.textContent='Open Demo';
+  btnDemo.onclick = ()=>{ 
+    if(v.demo) window.open(v.demo,'_blank');
+    else alert('Demo URL 未設定');
+  };
+
+  const btnCred = document.createElement('button');
+  btnCred.className='demo-btn';
+  btnCred.textContent='Show Cred';
+  btnCred.onclick = ()=>{
+    const acc = v.account || '';
+    const pwd = v.password || '';
+    if(!acc && !pwd) alert('无帐号密码');
+    else alert(`Account: ${acc}\nPassword: ${pwd}`);
+  };
+
+  footer.appendChild(btnDemo);
+  footer.appendChild(btnCred);
+
+  div.appendChild(logo);
   div.appendChild(title);
-  div.appendChild(meta);
+  div.appendChild(type);
+  if(v.source) div.appendChild(meta);
   div.appendChild(footer);
+
   return div;
 }
 
-/* 渲染主区域 */
+/* 渲染主内容 */
 function renderGrid(list){
   const grid = document.getElementById('grid');
   grid.innerHTML = '';
@@ -164,12 +183,18 @@ function renderGrid(list){
   document.getElementById('resultCount').textContent = `显示 ${list.length} 个厂商`;
 }
 
-/* 过滤并渲染 */
+/* 搜尋 + 分类过滤 */
 function filterAndRender(){
   const keyword = document.getElementById('searchInput').value.trim().toLowerCase();
   let list = ALL_VENDORS.slice();
+
   if(ACTIVE_CATEGORY !== 'All') list = list.filter(v=>v.type === ACTIVE_CATEGORY);
-  if(keyword) list = list.filter(v=> (v.name||'').toLowerCase().includes(keyword) || (v.tags||'').toLowerCase().includes(keyword));
+
+  if(keyword) list = list.filter(v=>{
+    return (v.name||'').toLowerCase().includes(keyword)
+        || (v.tags||'').toLowerCase().includes(keyword);
+  });
+
   renderGrid(list);
 }
 
@@ -177,15 +202,13 @@ function filterAndRender(){
 async function init(){
   const vendors = await loadVendors();
   ALL_VENDORS = vendors.map(v=>{
-    // normalize type names: 将中文类别或多余空白统一
-    v.type = (v.type||'Other').toString().trim();
+    v.type = (v.type||'Other').trim();
     return v;
   });
   renderCategories(ALL_VENDORS);
   filterAndRender();
 }
 
-/* 搜尋事件 */
 document.getElementById('searchInput').addEventListener('input', filterAndRender);
 document.getElementById('refreshBtn').addEventListener('click', init);
 
