@@ -14,7 +14,6 @@
     }
     html,body{height:100%;margin:0;background:var(--bg);color:#eee;font-family:Inter,Segoe UI,Roboto,Arial;}
     .wrap{display:flex;min-height:100vh;}
-    /* sidebar */
     .sidebar{width:270px;background:#0b0b0d;padding:22px;border-right:1px solid rgba(255,255,255,0.03);position:fixed;top:0;bottom:0;overflow:auto}
     .logo-title{color:var(--accent);font-weight:700;margin-bottom:14px;font-size:18px}
     .search{margin-bottom:18px}
@@ -22,11 +21,9 @@
     .category{margin:8px 0;padding:8px;border-radius:8px;cursor:pointer;color:var(--muted)}
     .category:hover{background:#0e1113;color:#fff}
     .category.active{background:linear-gradient(90deg,#06121a66,transparent);box-shadow:var(--glow);color:var(--accent);border-left:3px solid var(--accent);padding-left:12px}
-    /* main */
     .main{margin-left:270px;padding:28px;flex:1}
     .tools{display:flex;gap:12px;align-items:center;margin-bottom:18px}
     .button{background:linear-gradient(90deg,#0fffdc11,#00a2ff11);border:1px solid rgba(0,165,200,0.08);padding:8px 12px;border-radius:8px;color:var(--accent);cursor:pointer;box-shadow:0 6px 28px rgba(0,165,200,0.06)}
-    /* grid */
     .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
     .card{background:var(--card);padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.03);transition:transform .18s,box-shadow .18s;display:flex;flex-direction:column;align-items:center}
     .card:hover{transform:translateY(-6px);box-shadow:0 20px 40px rgba(0,0,0,0.6),0 0 24px rgba(0,245,224,0.06)}
@@ -38,13 +35,13 @@
     .footer{margin-top:auto;display:flex;gap:8px;width:100%;justify-content:center}
     .demo-btn{background:#0b0f16;color:#fff;padding:8px 12px;border-radius:12px;border:0;cursor:pointer;box-shadow:0 6px 22px rgba(0,0,0,0.6);transition:all .12s}
     .demo-btn.glow{box-shadow:0 8px 36px rgba(0,245,224,0.18),0 0 12px rgba(0,245,224,0.08);background:linear-gradient(90deg,#021a16,#003b37)}
-    /* responsive */
     @media(max-width:900px){
       .sidebar{display:none}
       .main{margin-left:0}
     }
   </style>
 </head>
+
 <body>
   <div class="wrap">
     <aside class="sidebar">
@@ -69,7 +66,8 @@
   </div>
 
 <script>
-/* 分类排序（可自行扩充） */
+
+/* 分类排序 */
 const CATEGORY_ORDER = ['All','Slot','Live','Sport','Fishing','Card','Lottery','Cockfight','Esport','Virtual'];
 
 /* 载入 vendors.json */
@@ -84,11 +82,10 @@ async function loadVendors(){
   }
 }
 
-/* 全局 state */
 let ALL_VENDORS = [];
 let ACTIVE_CATEGORY = 'All';
 
-/* 渲染左侧分类栏 */
+/* 分类栏 */
 function renderCategories(vendors){
   const cats = Array.from(new Set(vendors.map(v=>v.type))).sort();
   const container = document.getElementById('categories');
@@ -110,7 +107,7 @@ function renderCategories(vendors){
   });
 }
 
-/* 生成卡片 */
+/* 卡片生成 */
 function makeCard(v){
   const div = document.createElement('div');
   div.className='card';
@@ -138,29 +135,31 @@ function makeCard(v){
   type.className='type';
   type.textContent = v.type;
 
-  const meta = document.createElement('div');
-  meta.className='meta';
-  meta.textContent = v.source ? 'Source: '+v.source : '';
-
   const footer = document.createElement('div');
   footer.className='footer';
 
+  /* Open Demo 按钮 */
   const btnDemo = document.createElement('button');
   btnDemo.className='demo-btn glow';
   btnDemo.textContent='Open Demo';
   btnDemo.onclick = ()=>{ 
-    if(v.demo) window.open(v.demo,'_blank');
+    const url = v.openDemo || v.demoUrl || '';
+    if(url) window.open(url,'_blank');
     else alert('Demo URL 未設定');
   };
 
+  /* Show Cred 按钮 */
   const btnCred = document.createElement('button');
   btnCred.className='demo-btn';
   btnCred.textContent='Show Cred';
   btnCred.onclick = ()=>{
-    const acc = v.account || '';
-    const pwd = v.password || '';
-    if(!acc && !pwd) alert('无帐号密码');
-    else alert(`Account: ${acc}\nPassword: ${pwd}`);
+    if(!v.needsPassword){
+      alert('不需要帐号密码');
+      return;
+    }
+
+    let note = v.passwordNote ? `Note: ${v.passwordNote}` : '';
+    alert(`${note}`);
   };
 
   footer.appendChild(btnDemo);
@@ -169,13 +168,12 @@ function makeCard(v){
   div.appendChild(logo);
   div.appendChild(title);
   div.appendChild(type);
-  if(v.source) div.appendChild(meta);
   div.appendChild(footer);
 
   return div;
 }
 
-/* 渲染主内容 */
+/* 渲染 */
 function renderGrid(list){
   const grid = document.getElementById('grid');
   grid.innerHTML = '';
@@ -183,17 +181,18 @@ function renderGrid(list){
   document.getElementById('resultCount').textContent = `显示 ${list.length} 个厂商`;
 }
 
-/* 搜尋 + 分类过滤 */
+/* 搜寻 + 分类 */
 function filterAndRender(){
   const keyword = document.getElementById('searchInput').value.trim().toLowerCase();
   let list = ALL_VENDORS.slice();
 
   if(ACTIVE_CATEGORY !== 'All') list = list.filter(v=>v.type === ACTIVE_CATEGORY);
 
-  if(keyword) list = list.filter(v=>{
-    return (v.name||'').toLowerCase().includes(keyword)
-        || (v.tags||'').toLowerCase().includes(keyword);
-  });
+  if(keyword){
+    list = list.filter(v=>{
+      return (v.name||'').toLowerCase().includes(keyword);
+    });
+  }
 
   renderGrid(list);
 }
@@ -212,7 +211,6 @@ async function init(){
 document.getElementById('searchInput').addEventListener('input', filterAndRender);
 document.getElementById('refreshBtn').addEventListener('click', init);
 
-/* run */
 init();
 
 </script>
