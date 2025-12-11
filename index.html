@@ -1,218 +1,149 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Gaming Demo Showcase</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vendors Demo Hub</title>
+
   <style>
-    :root{
-      --bg:#070709;
-      --card:#131316;
-      --muted:#8b8c90;
-      --accent:#00f5e0;
-      --glow:0 6px 20px rgba(0,245,224,0.08);
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      background: #f4f4f4;
     }
-    html,body{height:100%;margin:0;background:var(--bg);color:#eee;font-family:Inter,Segoe UI,Roboto,Arial;}
-    .wrap{display:flex;min-height:100vh;}
-    .sidebar{width:270px;background:#0b0b0d;padding:22px;border-right:1px solid rgba(255,255,255,0.03);position:fixed;top:0;bottom:0;overflow:auto}
-    .logo-title{color:var(--accent);font-weight:700;margin-bottom:14px;font-size:18px}
-    .search{margin-bottom:18px}
-    .search input{width:100%;padding:10px;border-radius:8px;border:0;background:#0f1113;color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,0.02)}
-    .category{margin:8px 0;padding:8px;border-radius:8px;cursor:pointer;color:var(--muted)}
-    .category:hover{background:#0e1113;color:#fff}
-    .category.active{background:linear-gradient(90deg,#06121a66,transparent);box-shadow:var(--glow);color:var(--accent);border-left:3px solid var(--accent);padding-left:12px}
-    .main{margin-left:270px;padding:28px;flex:1}
-    .tools{display:flex;gap:12px;align-items:center;margin-bottom:18px}
-    .button{background:linear-gradient(90deg,#0fffdc11,#00a2ff11);border:1px solid rgba(0,165,200,0.08);padding:8px 12px;border-radius:8px;color:var(--accent);cursor:pointer;box-shadow:0 6px 28px rgba(0,165,200,0.06)}
-    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
-    .card{background:var(--card);padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.03);transition:transform .18s,box-shadow .18s;display:flex;flex-direction:column;align-items:center}
-    .card:hover{transform:translateY(-6px);box-shadow:0 20px 40px rgba(0,0,0,0.6),0 0 24px rgba(0,245,224,0.06)}
-    .logo-wrap{width:180px;height:80px;border-radius:8px;background:#0d0d0f;display:flex;align-items:center;justify-content:center;margin-bottom:12px;overflow:hidden}
-    .logo-wrap img{max-width:100%;max-height:100%}
-    .title{font-weight:700;margin-bottom:8px;text-align:center}
-    .type{font-size:12px;color:var(--muted);margin-bottom:10px}
-    .meta{font-size:12px;color:var(--muted);margin-top:6px}
-    .footer{margin-top:auto;display:flex;gap:8px;width:100%;justify-content:center}
-    .demo-btn{background:#0b0f16;color:#fff;padding:8px 12px;border-radius:12px;border:0;cursor:pointer;box-shadow:0 6px 22px rgba(0,0,0,0.6);transition:all .12s}
-    .demo-btn.glow{box-shadow:0 8px 36px rgba(0,245,224,0.18),0 0 12px rgba(0,245,224,0.08);background:linear-gradient(90deg,#021a16,#003b37)}
-    @media(max-width:900px){
-      .sidebar{display:none}
-      .main{margin-left:0}
+    .vendor-card {
+      background: white;
+      padding: 16px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    .vendor-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+    .vendor-type {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    .vendor-buttons button {
+      margin-right: 10px;
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .btn-demo {
+      background: #007bff;
+      color: white;
+    }
+    .btn-card {
+      background: #28a745;
+      color: white;
+    }
+    #searchBox {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    #categoryFilter {
+      margin-bottom: 20px;
+      padding: 8px;
+      border-radius: 6px;
     }
   </style>
 </head>
 
 <body>
-  <div class="wrap">
-    <aside class="sidebar">
-      <div class="logo-title">Game Demo Showcase</div>
-      <div class="search"><input id="searchInput" placeholder="搜尋遊戲商或關鍵字..." /></div>
-      <div id="categories"></div>
-      <div style="height:32px"></div>
-      <div style="font-size:12px;color:#7f8a8c">
-        說明：LOGO 請放在 /logos/*.jpg<br>
-        Demo URL 與帳密請在 vendors.json 填入
-      </div>
-    </aside>
 
-    <main class="main">
-      <div class="tools">
-        <div style="flex:1"><strong id="resultCount">Loading...</strong></div>
-        <button class="button" id="refreshBtn">Refresh</button>
-      </div>
+  <h1>Vendor Demo Hub</h1>
 
-      <section id="grid" class="grid"></section>
-    </main>
-  </div>
+  <input id="searchBox" type="text" placeholder="搜尋遊戲商..." />
 
-<script>
+  <select id="categoryFilter">
+    <option value="all">全部分類</option>
+  </select>
 
-/* 分类排序 */
-const CATEGORY_ORDER = ['All','Slot','Live','Sport','Fishing','Card','Lottery','Cockfight','Esport','Virtual'];
+  <div id="vendorContainer"></div>
 
-/* 载入 vendors.json */
-async function loadVendors(){
-  try {
-    const res = await fetch('vendors/vendors.json', {cache:'no-store'});
-    if(!res.ok) throw new Error('vendors.json not found: ' + res.status);
-    return await res.json();
-  } catch (e) {
-    console.error(e);
-    return [];
-  }
-}
+  <script>
+    const vendorUrl = "https://barrylee-sketch.github.io/Demo-site/vendors/vendors.json";
 
-let ALL_VENDORS = [];
-let ACTIVE_CATEGORY = 'All';
+    async function loadVendors() {
+      try {
+        const res = await fetch(vendorUrl, { cache: "no-store" });
+        const vendors = await res.json();
 
-/* 分类栏 */
-function renderCategories(vendors){
-  const cats = Array.from(new Set(vendors.map(v=>v.type))).sort();
-  const container = document.getElementById('categories');
-  container.innerHTML = '';
-
-  CATEGORY_ORDER.forEach(c=>{
-    if(c==='All' || cats.includes(c)){
-      const d = document.createElement('div');
-      d.className = 'category' + (c===ACTIVE_CATEGORY ? ' active' : '');
-      d.textContent = c === 'All' ? '🌐 全部' : c;
-      d.onclick = () => {
-        ACTIVE_CATEGORY = c;
-        document.querySelectorAll('.category').forEach(el=>el.classList.remove('active'));
-        d.classList.add('active');
-        filterAndRender();
-      };
-      container.appendChild(d);
-    }
-  });
-}
-
-/* 卡片生成 */
-function makeCard(v){
-  const div = document.createElement('div');
-  div.className='card';
-
-  const logo = document.createElement('div');
-  logo.className='logo-wrap';
-  const img = document.createElement('img');
-  img.alt = v.name;
-  img.src = v.logo || 'logos/placeholder.jpg';
-  img.onerror = function(){
-    this.src = 'data:image/svg+xml;utf8,' + encodeURIComponent(
-      `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="160">
-         <rect width="100%" height="100%" fill="#0d0d0f"/>
-         <text x="50%" y="50%" fill="#666" font-size="14" text-anchor="middle" alignment-baseline="middle">${v.name}</text>
-       </svg>`
-    );
-  };
-  logo.appendChild(img);
-
-  const title = document.createElement('div');
-  title.className='title';
-  title.textContent = v.name;
-
-  const type = document.createElement('div');
-  type.className='type';
-  type.textContent = v.type;
-
-  const footer = document.createElement('div');
-  footer.className='footer';
-
-  /* Open Demo 按钮 */
-  const btnDemo = document.createElement('button');
-  btnDemo.className='demo-btn glow';
-  btnDemo.textContent='Open Demo';
-  btnDemo.onclick = ()=>{ 
-    const url = v.openDemo || v.demoUrl || '';
-    if(url) window.open(url,'_blank');
-    else alert('Demo URL 未設定');
-  };
-
-  /* Show Cred 按钮 */
-  const btnCred = document.createElement('button');
-  btnCred.className='demo-btn';
-  btnCred.textContent='Show Cred';
-  btnCred.onclick = ()=>{
-    if(!v.needsPassword){
-      alert('不需要帐号密码');
-      return;
+        initFilters(vendors);
+        renderVendors(vendors);
+      } catch (e) {
+        console.error("Vendors 讀取失敗:", e);
+      }
     }
 
-    let note = v.passwordNote ? `Note: ${v.passwordNote}` : '';
-    alert(`${note}`);
-  };
+    function initFilters(vendors) {
+      const categories = [...new Set(vendors.map(v => v.type))];
+      const filter = document.getElementById("categoryFilter");
 
-  footer.appendChild(btnDemo);
-  footer.appendChild(btnCred);
+      categories.forEach(cat => {
+        const opt = document.createElement("option");
+        opt.value = cat;
+        opt.textContent = cat;
+        filter.appendChild(opt);
+      });
 
-  div.appendChild(logo);
-  div.appendChild(title);
-  div.appendChild(type);
-  div.appendChild(footer);
+      filter.addEventListener("change", () => {
+        const search = document.getElementById("searchBox").value.toLowerCase();
+        renderVendors(vendors, search, filter.value);
+      });
 
-  return div;
-}
+      document.getElementById("searchBox").addEventListener("input", () => {
+        const search = document.getElementById("searchBox").value.toLowerCase();
+        renderVendors(vendors, search, filter.value);
+      });
+    }
 
-/* 渲染 */
-function renderGrid(list){
-  const grid = document.getElementById('grid');
-  grid.innerHTML = '';
-  list.forEach(v=>grid.appendChild(makeCard(v)));
-  document.getElementById('resultCount').textContent = `显示 ${list.length} 个厂商`;
-}
+    function renderVendors(vendors, search = "", category = "all") {
+      const container = document.getElementById("vendorContainer");
+      container.innerHTML = "";
 
-/* 搜寻 + 分类 */
-function filterAndRender(){
-  const keyword = document.getElementById('searchInput').value.trim().toLowerCase();
-  let list = ALL_VENDORS.slice();
+      vendors
+        .filter(v => v.name.toLowerCase().includes(search))
+        .filter(v => category === "all" || v.type === category)
+        .forEach(v => {
+          const card = document.createElement("div");
+          card.className = "vendor-card";
 
-  if(ACTIVE_CATEGORY !== 'All') list = list.filter(v=>v.type === ACTIVE_CATEGORY);
+          card.innerHTML = `
+            <div class="vendor-title">${v.name}</div>
+            <div class="vendor-type">${v.type}</div>
+            <div class="vendor-buttons">
+              <button class="btn-demo" onclick="openDemo('${v.demoUrl}')">Open Demo</button>
+              ${v.showCard ? `<button class="btn-card" onclick='showCred("${v.name}", "${v.passwordNote}")'>Show Card</button>` : ""}
+            </div>
+          `;
 
-  if(keyword){
-    list = list.filter(v=>{
-      return (v.name||'').toLowerCase().includes(keyword);
-    });
-  }
+          container.appendChild(card);
+        });
+    }
 
-  renderGrid(list);
-}
+    function openDemo(url) {
+      if (!url) {
+        alert("Demo URL 未設定");
+        return;
+      }
+      window.open(url, "_blank");
+    }
 
-/* 初始化 */
-async function init(){
-  const vendors = await loadVendors();
-  ALL_VENDORS = vendors.map(v=>{
-    v.type = (v.type||'Other').trim();
-    return v;
-  });
-  renderCategories(ALL_VENDORS);
-  filterAndRender();
-}
+    function showCred(name, note) {
+      alert(name + "\\n\\n" + note);
+    }
 
-document.getElementById('searchInput').addEventListener('input', filterAndRender);
-document.getElementById('refreshBtn').addEventListener('click', init);
-
-init();
-
-</script>
+    loadVendors();
+  </script>
 </body>
 </html>
