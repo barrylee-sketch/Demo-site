@@ -85,7 +85,7 @@ const CATEGORY_ORDER = ['All','Slot','Live','Sport','Fishing','Card','Lottery','
 /* load vendors.json（改路徑時請同步修改） */
 async function loadVendors(){
   try {
-    const res = await fetch('/data/vendors.json', {cache:'no-store'});
+    const res = await fetch('/vendors/vendors.json', {cache:'no-store'});
     if(!res.ok) throw new Error('vendors.json not found or fetch error: ' + res.status);
     const data = await res.json();
     return data;
