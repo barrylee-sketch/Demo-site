@@ -518,7 +518,6 @@
     "needsPassword": false,
     "passwordNote": ""
   },
-
   {
     "name": "天成TCG",
     "type": "Lottery",
@@ -539,7 +538,6 @@
     "needsPassword": false,
     "passwordNote": ""
   },
-
   {
     "name": "凯旋棋牌 KX",
     "type": "Card",
@@ -570,7 +568,6 @@
     "needsPassword": false,
     "passwordNote": ""
   },
-
   {
     "name": "博乐 BoleGaming",
     "type": "Card",
@@ -581,7 +578,6 @@
     "needsPassword": false,
     "passwordNote": ""
   },
-
   {
     "name": "AceWin",
     "type": "Slot",
@@ -612,7 +608,6 @@
     "needsPassword": false,
     "passwordNote": ""
   },
-
   {
     "name": "AG",
     "type": "Live",
@@ -662,7 +657,7 @@
     "demoUrl": "https://www.ab99.games/?l=t#/",
     "needsPassword": false,
     "passwordNote": ""
-  },
+  }
 
 
 
