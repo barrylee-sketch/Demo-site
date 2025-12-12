@@ -96,19 +96,9 @@
     "name": "博乐 BoleGaming",
     "type": "Card",
     "logo": "",
-    "openDemo": "https://demo.v5sm.blmolo.com/main/index.html",
+    "openDemo": "https://www.bolegaming.com/",
     "showCard": false,
-    "demoUrl": "https://demo.v5sm.blmolo.com/main/index.html",
-    "needsPassword": false,
-    "passwordNote": ""
-  },
-  {
-    "name": "博乐捕鱼",
-    "type": "Fishing",
-    "logo": "",
-    "openDemo": "https://demo.v5sm.blmolo.com/main/index.html",
-    "showCard": false,
-    "demoUrl": "https://demo.v5sm.blmolo.com/main/index.html",
+    "demoUrl": "https://www.bolegaming.com/",
     "needsPassword": false,
     "passwordNote": ""
   },
