@@ -9,6 +9,64 @@
     "needsPassword": false,
     "passwordNote": ""
   },
+{
+  "name": "CMDBET",
+  "type": "Sport",
+  "logo": "",
+  "openDemo": "https://www.368connect.net/mem/sportsbook.aspx",
+  "showCard": false,
+  "demoUrl": "https://www.368connect.net/mem/sportsbook.aspx",
+  "needsPassword": true,
+  "passwordNote": "aetest"
+},
+  {
+  "name": "DB Sport",
+  "type": "Sport",
+  "logo": "",
+  "openDemo": "https://www.dbgaming.com/",
+  "showCard": false,
+  "demoUrl": "https://www.dbgaming.com/",
+  "needsPassword": false,
+  "passwordNote": ""
+},
+  {
+  "name": "UG",
+  "type": "Sport",
+  "logo": "",
+  "openDemo": "https://demo.unitedgaming.com/",
+  "showCard": false,
+  "demoUrl": "https://demo.unitedgaming.com/",
+  "needsPassword": false,
+  "passwordNote": ""
+},
+  {
+  "name": "FBSPORTS",
+  "type": "Sport",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "showCard": false,
+  "demoUrl": "http://demo.awcgames.club/",
+  "needsPassword": true,
+  "passwordNote": "CUR 币别 + 88888"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   {
     "name": "168Games",
     "type": "Slot",
