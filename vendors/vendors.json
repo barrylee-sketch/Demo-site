@@ -1,4 +1,5 @@
-  {
+[
+{
     "name": "AFB",
     "type": "Sport",
     "logo": "",
@@ -658,7 +659,7 @@
     "needsPassword": false,
     "passwordNote": ""
   }
-
+]
 
 
 
