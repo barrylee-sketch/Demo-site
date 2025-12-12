@@ -49,6 +49,387 @@
   "needsPassword": true,
   "passwordNote": "CUR 币别 + 88888"
 },
+  {
+    "name": "BTG",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "http://btgaming.com/",
+    "openDemo": "http://btgaming.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Bunfox",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.qoragames.com/",
+    "openDemo": "https://www.qoragames.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Booming_DC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://booming-games.com/games",
+    "openDemo": "https://booming-games.com/games",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "CG",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.genesis-games.com/",
+    "openDemo": "https://www.genesis-games.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "CG_AWC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "http://demo.awcgames.club/",
+    "openDemo": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "CUR 币别 + 88888"
+  },
+  {
+    "name": "CRASH88_AWC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "http://demo.awcgames.club/",
+    "openDemo": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "CUR 币别 + 88888"
+  },
+  {
+    "name": "Radi8",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.qoragames.com/",
+    "openDemo": "https://www.qoragames.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "RedTiger_AWC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "http://demo.awcgames.club/",
+    "openDemo": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "CUR 币别 + 88888"
+  },
+  {
+    "name": "RedTiger_DC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://redtiger.com/",
+    "openDemo": "https://redtiger.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Relax_DC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.thebestslot.nu/product",
+    "openDemo": "https://www.thebestslot.nu/product",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Relax_AWC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "http://demo.awcgames.club/",
+    "openDemo": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "CUR 币别 + 88888"
+  },
+  {
+    "name": "RiCH88",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://demo.r88games.com/",
+    "openDemo": "https://demo.r88games.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "RTG",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://demo-a.rt-services.co/index.html?lang=en&showRoom=1",
+    "openDemo": "https://demo-a.rt-services.co/index.html?lang=en&showRoom=1",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "7demo001 / 7demo002 / 7demo003"
+  },
+  {
+    "name": "SEA Gaming",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.sagaming.com/",
+    "openDemo": "https://www.sagaming.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "SimplePlay",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "http://simpleplay.com/",
+    "openDemo": "http://simpleplay.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Smartsoft_DC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.thebestslot.nu/product",
+    "openDemo": "https://www.thebestslot.nu/product",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Slotmill_DC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.thebestslot.nu/product",
+    "openDemo": "https://www.thebestslot.nu/product",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "SpadeGaming",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "http://sgslot.com/",
+    "openDemo": "http://sgslot.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "SpadeGaming_AWC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "http://demo.awcgames.club/",
+    "openDemo": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "CUR 币别 + 88888"
+  },
+  {
+    "name": "SplusGaming",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "http://www.splus.games/demo",
+    "openDemo": "http://www.splus.games/demo",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "SPRIBE_AWC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "http://demo.awcgames.club/",
+    "openDemo": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "CUR 币别 + 88888"
+  },
+  {
+    "name": "SPRIBE_DC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.thebestslot.nu/product",
+    "openDemo": "https://www.thebestslot.nu/product",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "SuperSpade",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.superspadegames.com/",
+    "openDemo": "https://www.superspadegames.com/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "帐号 Testuser 密码 Test@123"
+  },
+  {
+    "name": "TADA",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://tadagaming.com/PlusTrial/32/en-US",
+    "openDemo": "https://tadagaming.com/PlusTrial/32/en-US",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "TADA_AWC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "http://demo.awcgames.club/",
+    "openDemo": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "CUR 币别 + 88888"
+  },
+  {
+    "name": "ThunderKick_DC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.thunderkick.com/games/",
+    "openDemo": "https://www.thunderkick.com/games/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "TP",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.topplayer888.com/tp/",
+    "openDemo": "https://www.topplayer888.com/tp/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "TTG",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.toptrendgaming.com/games",
+    "openDemo": "https://www.toptrendgaming.com/games",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Turbo_DC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://turbogames.io/game/chickenroute",
+    "openDemo": "https://turbogames.io/game/chickenroute",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "VA Gaming",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.va-game.com/hk",
+    "openDemo": "https://www.va-game.com/hk",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "VG",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://91vgames.com/",
+    "openDemo": "https://91vgames.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Voltent_DC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.thebestslot.nu/product",
+    "openDemo": "https://www.thebestslot.nu/product",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Winfast_DC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.thebestslot.nu/product",
+    "openDemo": "https://www.thebestslot.nu/product",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "XIN",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://docs.infopa.cc/",
+    "openDemo": "https://docs.infopa.cc/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Yggdrasil_DC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.thebestslot.nu/product",
+    "openDemo": "https://www.thebestslot.nu/product",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Yggdrasil_AWC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "http://demo.awcgames.club/",
+    "openDemo": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "CUR 币别 + 88888"
+  },
+  {
+    "name": "Yolted_DC",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://www.yolted.com/games",
+    "openDemo": "https://www.yolted.com/games",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Yoplay",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://docs.infopa.cc/",
+    "openDemo": "https://docs.infopa.cc/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  }
+]
 
 
 
