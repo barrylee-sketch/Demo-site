@@ -428,26 +428,67 @@
     "showCard": false,
     "needsPassword": false,
     "passwordNote": ""
-  }
-]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+  },
+  {
+    "name": "YL",
+    "type": "Fishing",
+    "logo": "",
+    "demoUrl": "https://demo0hq.ylgaming.net/",
+    "openDemo": "https://demo0hq.ylgaming.net/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "YL_AWC",
+    "type": "Fishing",
+    "logo": "",
+    "demoUrl": "http://demo.awcgames.club/",
+    "openDemo": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "CUR 币别 + 88888"
+  },
+  {
+    "name": "YellowBat_AWC",
+    "type": "Fishing",
+    "logo": "",
+    "demoUrl": "http://demo.awcgames.club/",
+    "openDemo": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "CUR 币别 + 88888"
+  },
+  {
+    "name": "Big Gaming",
+    "type": "Card",
+    "logo": "",
+    "demoUrl": "http://biggaming.cc/",
+    "openDemo": "http://biggaming.cc/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "KA",
+    "type": "Card",
+    "logo": "",
+    "demoUrl": "https://halltest.kaga88.com/#/",
+    "openDemo": "https://halltest.kaga88.com/#/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "KM",
+    "type": "Card",
+    "logo": "",
+    "demoUrl": "https://living.cf777.club/",
+    "openDemo": "https://living.cf777.club/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
   {
     "name": "168Games",
     "type": "Slot",
@@ -613,7 +654,6 @@
     "needsPassword": false,
     "passwordNote": ""
   },
-
   {
     "name": "Allbet 欧博",
     "type": "Live",
@@ -623,5 +663,33 @@
     "demoUrl": "https://www.ab99.games/?l=t#/",
     "needsPassword": false,
     "passwordNote": ""
-  }
-]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
