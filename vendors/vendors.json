@@ -658,8 +658,8 @@
     "demoUrl": "https://www.ab99.games/?l=t#/",
     "needsPassword": false,
     "passwordNote": ""
-  }
-    {
+  },
+  {
   "name": "BTG",
   "type": "Fishing",
   "logo": "",
@@ -798,7 +798,7 @@
   "showCard": false,
   "needsPassword": false,
   "passwordNote": ""
-}
+},
 {
   "name": "CQ9 Motivation",
   "type": "Live",
@@ -938,7 +938,87 @@
   "showCard": true,
   "needsPassword": true,
   "passwordNote": "CUR 币别 + 88888"
-}    
+},
+{
+  "name": "DB",
+  "type": "Scratch",
+  "logo": "",
+  "openDemo": "https://www.dbgaming.com/",
+  "demoUrl": "https://www.dbgaming.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "DB",
+  "type": "Lottery",
+  "logo": "",
+  "openDemo": "https://www.dbgaming.com/",
+  "demoUrl": "https://www.dbgaming.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "VR GAMING_AWC",
+  "type": "Lottery",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "CUR 币别 + 88888"
+},
+{
+  "name": "YellowBat_AWC",
+  "type": "Lottery",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "CUR 币别 + 88888"
+},
+{
+  "name": "RCB_AWC",
+  "type": "Horse Racing",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "CUR 币别 + 88888"
+},
+{
+  "name": "DB Esport",
+  "type": "Esport",
+  "logo": "",
+  "openDemo": "https://www.dbgaming.com/",
+  "demoUrl": "https://www.dbgaming.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "TFGaming",
+  "type": "Esport",
+  "logo": "",
+  "openDemo": "http://tfgaming.net/?demo=true",
+  "demoUrl": "http://tfgaming.net/?demo=true",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "帐号：tfdemo01｜密码：jhpnm1"
+},
+{
+  "name": "SABA_AWC",
+  "type": "Virtual",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "CUR 币别 + 88888"
+},   
 ]
 
 
