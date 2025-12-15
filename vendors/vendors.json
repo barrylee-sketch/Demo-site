@@ -748,8 +748,8 @@
   "showCard": true,
   "needsPassword": true,
   "passwordNote": "CUR 币别 + 88888"
-}
-    {
+},
+{
   "name": "CQ9",
   "type": "Card",
   "logo": "",
@@ -1018,7 +1018,7 @@
   "showCard": true,
   "needsPassword": true,
   "passwordNote": "CUR 币别 + 88888"
-},   
+}   
 ]
 
 
