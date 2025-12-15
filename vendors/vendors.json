@@ -659,6 +659,286 @@
     "needsPassword": false,
     "passwordNote": ""
   }
+    {
+  "name": "BTG",
+  "type": "Fishing",
+  "logo": "",
+  "openDemo": "http://btgaming.com/",
+  "demoUrl": "http://btgaming.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "CQ9",
+  "type": "Fishing",
+  "logo": "",
+  "openDemo": "https://demo.cqgame.games/Home",
+  "demoUrl": "https://demo.cqgame.games/Home",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "DB",
+  "type": "Fishing",
+  "logo": "",
+  "openDemo": "https://www.dbgaming.com/",
+  "demoUrl": "https://www.dbgaming.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "RSG",
+  "type": "Fishing",
+  "logo": "",
+  "openDemo": "https://www.rsg-games.com/zh-TW/",
+  "demoUrl": "https://www.rsg-games.com/zh-TW/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "Simple Play",
+  "type": "Fishing",
+  "logo": "",
+  "openDemo": "http://simpleplay.com/",
+  "demoUrl": "http://simpleplay.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "Spade Gaming",
+  "type": "Fishing",
+  "logo": "",
+  "openDemo": "http://sgslot.com/",
+  "demoUrl": "http://sgslot.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "YL",
+  "type": "Fishing",
+  "logo": "",
+  "openDemo": "https://demo0hq.ylgaming.net/",
+  "demoUrl": "https://demo0hq.ylgaming.net/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "YL_AWC",
+  "type": "Fishing",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "CUR 币别 + 88888"
+},
+{
+  "name": "YellowBat_AWC",
+  "type": "Fishing",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "CUR 币别 + 88888"
+}
+    {
+  "name": "CQ9",
+  "type": "Card",
+  "logo": "",
+  "openDemo": "https://demo.cqgame.games/Home",
+  "demoUrl": "https://demo.cqgame.games/Home",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "DB",
+  "type": "Card",
+  "logo": "",
+  "openDemo": "https://www.dbgaming.com/",
+  "demoUrl": "https://www.dbgaming.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "RiCH88",
+  "type": "Card",
+  "logo": "",
+  "openDemo": "https://demo.r88games.com/",
+  "demoUrl": "https://demo.r88games.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "Spade Gaming",
+  "type": "Card",
+  "logo": "",
+  "openDemo": "http://sgslot.com/",
+  "demoUrl": "http://sgslot.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "TADA",
+  "type": "Card",
+  "logo": "",
+  "openDemo": "https://tadagaming.com/PlusTrial/32/en-US",
+  "demoUrl": "https://tadagaming.com/PlusTrial/32/en-US",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+}
+{
+  "name": "CQ9 Motivation",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "https://demo.cqgame.games/Home",
+  "demoUrl": "https://demo.cqgame.games/Home",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "DB",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "https://www.dbgaming.com/",
+  "demoUrl": "https://www.dbgaming.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "RSG",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "https://www.rsg-games.com/zh-TW/",
+  "demoUrl": "https://www.rsg-games.com/zh-TW/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "ROYALGAMING_AWC",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "CUR 币别 + 88888"
+},
+{
+  "name": "SA Gaming",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "https://www.sagaming.com/",
+  "demoUrl": "https://www.sagaming.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "SA Gaming_DC",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "https://www.sagaming.com/trial",
+  "demoUrl": "https://www.sagaming.com/trial",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "Sexy_AWC",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "CUR 币别 + 88888"
+},
+{
+  "name": "Super Spade",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "https://www.superspadegames.com/",
+  "demoUrl": "https://www.superspadegames.com/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "帐号 Testuser / 密码 Test@123"
+},
+{
+  "name": "TADA_AWC",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "CUR 币别 + 88888"
+},
+{
+  "name": "ViA Casino",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "http://via-casino.com/",
+  "demoUrl": "http://via-casino.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "WINFINITY_AWC",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "CUR 币别 + 88888"
+},
+{
+  "name": "WM",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "http://wm555.net/",
+  "demoUrl": "http://wm555.net/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "CREEDROOMZ_AWC",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "CUR 币别 + 88888"
+},
+{
+  "name": "Skycasino_AWC",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "CUR 币别 + 88888"
+}    
 ]
 
 
