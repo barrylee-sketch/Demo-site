@@ -22,7 +22,7 @@
   {
   "name": "DB Sport",
   "type": "Sport",
-  "logo": "",
+  "logo": "logos/DB.png",
   "openDemo": "https://www.dbgaming.com/",
   "showCard": false,
   "demoUrl": "https://www.dbgaming.com/",
@@ -672,7 +672,7 @@
 {
   "name": "DB",
   "type": "Fishing",
-  "logo": "",
+  "logo": "logos/DB.png",
   "openDemo": "https://www.dbgaming.com/",
   "demoUrl": "https://www.dbgaming.com/",
   "showCard": false,
@@ -752,7 +752,7 @@
 {
   "name": "DB",
   "type": "Card",
-  "logo": "",
+  "logo": "logos/DB.png",
   "openDemo": "https://www.dbgaming.com/",
   "demoUrl": "https://www.dbgaming.com/",
   "showCard": false,
@@ -802,7 +802,7 @@
 {
   "name": "DB",
   "type": "Live",
-  "logo": "",
+  "logo": "logos/DB.png",
   "openDemo": "https://www.dbgaming.com/",
   "demoUrl": "https://www.dbgaming.com/",
   "showCard": false,
@@ -932,7 +932,7 @@
 {
   "name": "DB",
   "type": "Scratch",
-  "logo": "",
+  "logo": "logos/DB.png",
   "openDemo": "https://www.dbgaming.com/",
   "demoUrl": "https://www.dbgaming.com/",
   "showCard": false,
@@ -942,7 +942,7 @@
 {
   "name": "DB",
   "type": "Lottery",
-  "logo": "",
+  "logo": "logos/DB.png",
   "openDemo": "https://www.dbgaming.com/",
   "demoUrl": "https://www.dbgaming.com/",
   "showCard": false,
@@ -982,7 +982,7 @@
 {
   "name": "DB Esport",
   "type": "Esport",
-  "logo": "",
+  "logo": "logos/DB.png",
   "openDemo": "https://www.dbgaming.com/",
   "demoUrl": "https://www.dbgaming.com/",
   "showCard": false,
