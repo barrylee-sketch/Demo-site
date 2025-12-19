@@ -52,7 +52,7 @@
   {
     "name": "BTG",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/BTG.png",
     "demoUrl": "http://btgaming.com/",
     "openDemo": "http://btgaming.com/",
     "showCard": false,
