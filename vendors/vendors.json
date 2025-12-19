@@ -282,7 +282,7 @@
   {
     "name": "TADA_AWC",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/tadalogo_2.png",
     "demoUrl": "http://demo.awcgames.club/",
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
@@ -442,7 +442,7 @@
   {
     "name": "YellowBat_AWC",
     "type": "Fishing",
-    "logo": "",
+    "logo": "logos/YELLOWBAT.png",
     "demoUrl": "http://demo.awcgames.club/",
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
@@ -732,7 +732,7 @@
 {
   "name": "YellowBat_AWC",
   "type": "Fishing",
-  "logo": "",
+  "logo": "logos/YELLOWBAT.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
@@ -782,7 +782,7 @@
 {
   "name": "TADA",
   "type": "Card",
-  "logo": "",
+  "logo": "logos/tadalogo_2.png",
   "openDemo": "https://tadagaming.com/PlusTrial/32/en-US",
   "demoUrl": "https://tadagaming.com/PlusTrial/32/en-US",
   "showCard": false,
@@ -872,7 +872,7 @@
 {
   "name": "TADA_AWC",
   "type": "Live",
-  "logo": "",
+  "logo": "logos/tadalogo_2.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
@@ -882,7 +882,7 @@
 {
   "name": "ViA Casino",
   "type": "Live",
-  "logo": "",
+  "logo": "logos/VIACASINO.png",
   "openDemo": "http://via-casino.com/",
   "demoUrl": "http://via-casino.com/",
   "showCard": false,
@@ -962,7 +962,7 @@
 {
   "name": "YellowBat_AWC",
   "type": "Lottery",
-  "logo": "",
+  "logo": "logos/YELLOWBAT.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
