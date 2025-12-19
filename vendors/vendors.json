@@ -662,7 +662,7 @@
   {
   "name": "BTG",
   "type": "Fishing",
-  "logo": "",
+  "logo": "logos/BTG.png",
   "openDemo": "http://btgaming.com/",
   "demoUrl": "http://btgaming.com/",
   "showCard": false,
