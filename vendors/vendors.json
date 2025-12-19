@@ -80,19 +80,9 @@
     "passwordNote": ""
   },
   {
-    "name": "CG",
-    "type": "Slot",
-    "logo": "",
-    "demoUrl": "https://www.genesis-games.com/",
-    "openDemo": "https://www.genesis-games.com/",
-    "showCard": false,
-    "needsPassword": false,
-    "passwordNote": ""
-  },
-  {
     "name": "CG_AWC",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/CG.png",
     "demoUrl": "http://demo.awcgames.club/",
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
@@ -122,7 +112,7 @@
   {
     "name": "RedTiger_AWC",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/RT.png",
     "demoUrl": "http://demo.awcgames.club/",
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
@@ -132,7 +122,7 @@
   {
     "name": "RedTiger_DC",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/RT.png",
     "demoUrl": "https://redtiger.com/",
     "openDemo": "https://redtiger.com/",
     "showCard": false,
@@ -142,7 +132,7 @@
   {
     "name": "Relax_DC",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/RELAX.png",
     "demoUrl": "https://www.thebestslot.nu/product",
     "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
@@ -152,7 +142,7 @@
   {
     "name": "Relax_AWC",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/RELAX.png",
     "demoUrl": "http://demo.awcgames.club/",
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
@@ -222,7 +212,7 @@
   {
     "name": "SpadeGaming",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/SPADE.png",
     "demoUrl": "http://sgslot.com/",
     "openDemo": "http://sgslot.com/",
     "showCard": false,
@@ -232,7 +222,7 @@
   {
     "name": "SpadeGaming_AWC",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/SPADE.png",
     "demoUrl": "http://demo.awcgames.club/",
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
@@ -252,7 +242,7 @@
   {
     "name": "SPRIBE_AWC",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/SPRIBE.png",
     "demoUrl": "http://demo.awcgames.club/",
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
@@ -262,7 +252,7 @@
   {
     "name": "SPRIBE_DC",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/SPRIBE.png",
     "demoUrl": "https://www.thebestslot.nu/product",
     "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
@@ -392,7 +382,7 @@
   {
     "name": "Yggdrasil_DC",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/YGGDRASIL.png",
     "demoUrl": "https://www.thebestslot.nu/product",
     "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
@@ -402,7 +392,7 @@
   {
     "name": "Yggdrasil_AWC",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/YGGDRASIL.png",
     "demoUrl": "http://demo.awcgames.club/",
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
@@ -432,7 +422,7 @@
   {
     "name": "YL",
     "type": "Fishing",
-    "logo": "",
+    "logo": "logos/YL.png",
     "demoUrl": "https://demo0hq.ylgaming.net/",
     "openDemo": "https://demo0hq.ylgaming.net/",
     "showCard": false,
@@ -442,7 +432,7 @@
   {
     "name": "YL_AWC",
     "type": "Fishing",
-    "logo": "",
+    "logo": "logos/YL.png",
     "demoUrl": "http://demo.awcgames.club/",
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
@@ -582,7 +572,7 @@
   {
     "name": "AceWin",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/ACEWIN.png",
     "openDemo": "https://www.acewingaming.com/",
     "showCard": false,
     "demoUrl": "https://www.acewingaming.com/",
@@ -592,7 +582,7 @@
   {
     "name": "AceWin 捕鱼",
     "type": "Fishing",
-    "logo": "",
+    "logo": "logos/ACEWIN.png",
     "openDemo": "https://www.acewingaming.com/",
     "showCard": false,
     "demoUrl": "https://www.acewingaming.com/",
@@ -602,7 +592,7 @@
   {
     "name": "AceWin 棋牌",
     "type": "Card",
-    "logo": "",
+    "logo": "logos/ACEWIN.png",
     "openDemo": "https://www.acewingaming.com/",
     "showCard": false,
     "demoUrl": "https://www.acewingaming.com/",
@@ -712,7 +702,7 @@
 {
   "name": "Spade Gaming",
   "type": "Fishing",
-  "logo": "",
+  "logo": "logos/SPADE.png",
   "openDemo": "http://sgslot.com/",
   "demoUrl": "http://sgslot.com/",
   "showCard": false,
@@ -722,7 +712,7 @@
 {
   "name": "YL",
   "type": "Fishing",
-  "logo": "",
+  "logo": "logos/YL.png",
   "openDemo": "https://demo0hq.ylgaming.net/",
   "demoUrl": "https://demo0hq.ylgaming.net/",
   "showCard": false,
@@ -732,7 +722,7 @@
 {
   "name": "YL_AWC",
   "type": "Fishing",
-  "logo": "",
+  "logo": "logos/YL.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
@@ -782,7 +772,7 @@
 {
   "name": "Spade Gaming",
   "type": "Card",
-  "logo": "",
+  "logo": "logos/SPADE.png",
   "openDemo": "http://sgslot.com/",
   "demoUrl": "http://sgslot.com/",
   "showCard": false,
@@ -862,7 +852,7 @@
 {
   "name": "Sexy_AWC",
   "type": "Live",
-  "logo": "",
+  "logo": "logos/SEXYBCRT.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
@@ -902,7 +892,7 @@
 {
   "name": "WINFINITY_AWC",
   "type": "Live",
-  "logo": "",
+  "logo": "logos/WINFINITY.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
@@ -922,7 +912,7 @@
 {
   "name": "CREEDROOMZ_AWC",
   "type": "Live",
-  "logo": "",
+  "logo": "logos/CREEDROOMZ.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
@@ -962,7 +952,7 @@
 {
   "name": "VR GAMING_AWC",
   "type": "Lottery",
-  "logo": "",
+  "logo": "logos/VRLOTTO.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
@@ -982,7 +972,7 @@
 {
   "name": "RCB_AWC",
   "type": "Horse Racing",
-  "logo": "",
+  "logo": "logos/HORSEBOOK.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
@@ -1012,7 +1002,7 @@
 {
   "name": "SABA_AWC",
   "type": "Virtual",
-  "logo": "",
+  "logo": "logos/SABA.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
