@@ -90,6 +90,16 @@
     "passwordNote": "CUR 币别 + 88888"
   },
   {
+    "name": "JILI_AWC",
+    "type": "Slot",
+    "logo": "logos/JILI.png",
+    "demoUrl": "http://demo.awcgames.club/",
+    "openDemo": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "CUR 币别 + 88888"
+  },
+  {
     "name": "CRASH88_AWC",
     "type": "Slot",
     "logo": "",
