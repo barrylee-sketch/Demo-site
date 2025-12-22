@@ -430,6 +430,456 @@
     "passwordNote": ""
   },
   {
+    "name": "AdvantPlay",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "7Mojos_DC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "AvatarUX_DC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Aviatrix",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "BBIN",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Blueprint_DC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "BGaming_DC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "BNG",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "DRAGOONSOFT_AWC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "EVOPLAY_DC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "FAST_SPIN_AWC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "FC发财电子",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "FIVEG_AWC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Fantasma_DC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "FunTaGaming_DC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "GB电子",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "GNS",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "GTF_AWC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "HacksawGaming_DC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "HacksawGaming_AWC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "HB",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "ILOVEU_AWC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "JDB",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Joker",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Joker_AWC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "JJ_AWC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "KAGaming",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "showCard": false,
+    "demoUrl": "",
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "LGD",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "MGPlus",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Netent_AWC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Netent_DC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Nextspin",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "NoLimitCity_AWC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "NoLimitCity_DC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Novomatic_DC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "OCtoplay_DC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "OCtoplay_AWC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "PlaynGO",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "PlaynGO_DC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "PeterSons_DC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Play8_AWC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "Playstar",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "PP",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "PP_AWC",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },
+  {
+    "name": "PT",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "",
+    "demoUrl": "",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },   
+  {
     "name": "YL",
     "type": "Fishing",
     "logo": "logos/YL.png",
