@@ -11,7 +11,7 @@
   },
   {
     "name": "DB",
-    "type": "Slot,Sport,Fishing,Live Casino,Lottery,Card Game,Esport,Scratch Card",
+    "type": "Slot,Sport,Fishing,Live,Lottery,Card,Esport,Scratch Card",
     "logo": "logos/DB.png",
     "openDemo": "https://www.dbgaming.com/",
     "showCard": false,
@@ -440,8 +440,8 @@
     "passwordNote": ""
   },
   {
-    "name": "7Mojos_DC",
-    "type": "Slot",
+    "name": "7Mojos",
+    "type": "Slot,Live Casino",
     "logo": "",
     "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
@@ -1031,27 +1031,7 @@
   },
   {
     "name": "AceWin",
-    "type": "Slot",
-    "logo": "logos/ACEWIN.png",
-    "openDemo": "https://www.acewingaming.com/",
-    "showCard": false,
-    "demoUrl": "https://www.acewingaming.com/",
-    "needsPassword": false,
-    "passwordNote": ""
-  },
-  {
-    "name": "AceWin 捕鱼",
-    "type": "Fishing",
-    "logo": "logos/ACEWIN.png",
-    "openDemo": "https://www.acewingaming.com/",
-    "showCard": false,
-    "demoUrl": "https://www.acewingaming.com/",
-    "needsPassword": false,
-    "passwordNote": ""
-  },
-  {
-    "name": "AceWin 棋牌",
-    "type": "Card",
+    "type": "Slot,Fishing,Card",
     "logo": "logos/ACEWIN.png",
     "openDemo": "https://www.acewingaming.com/",
     "showCard": false,
