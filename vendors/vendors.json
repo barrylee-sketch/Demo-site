@@ -20,16 +20,6 @@
   "passwordNote": "aetest"
 },
   {
-  "name": "DB Sport",
-  "type": "Sport",
-  "logo": "logos/DB.png",
-  "openDemo": "https://www.dbgaming.com/",
-  "showCard": false,
-  "demoUrl": "https://www.dbgaming.com/",
-  "needsPassword": false,
-  "passwordNote": ""
-},
-  {
   "name": "UG",
   "type": "Sport",
   "logo": "",
@@ -1130,16 +1120,6 @@
   "passwordNote": ""
 },
 {
-  "name": "DB",
-  "type": "Fishing",
-  "logo": "logos/DB.png",
-  "openDemo": "https://www.dbgaming.com/",
-  "demoUrl": "https://www.dbgaming.com/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
   "name": "RSG",
   "type": "Fishing",
   "logo": "",
@@ -1210,16 +1190,6 @@
   "passwordNote": ""
 },
 {
-  "name": "DB",
-  "type": "Card",
-  "logo": "logos/DB.png",
-  "openDemo": "https://www.dbgaming.com/",
-  "demoUrl": "https://www.dbgaming.com/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
   "name": "RiCH88",
   "type": "Card",
   "logo": "",
@@ -1255,16 +1225,6 @@
   "logo": "",
   "openDemo": "https://demo.cqgame.games/Home",
   "demoUrl": "https://demo.cqgame.games/Home",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "DB",
-  "type": "Live",
-  "logo": "logos/DB.png",
-  "openDemo": "https://www.dbgaming.com/",
-  "demoUrl": "https://www.dbgaming.com/",
   "showCard": false,
   "needsPassword": false,
   "passwordNote": ""
@@ -1390,26 +1350,6 @@
   "passwordNote": "CUR 币别 + 88888"
 },
 {
-  "name": "DB",
-  "type": "Scratch",
-  "logo": "logos/DB.png",
-  "openDemo": "https://www.dbgaming.com/",
-  "demoUrl": "https://www.dbgaming.com/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "DB",
-  "type": "Lottery",
-  "logo": "logos/DB.png",
-  "openDemo": "https://www.dbgaming.com/",
-  "demoUrl": "https://www.dbgaming.com/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
   "name": "VR GAMING_AWC",
   "type": "Lottery",
   "logo": "logos/VRLOTTO.png",
@@ -1438,16 +1378,6 @@
   "showCard": true,
   "needsPassword": true,
   "passwordNote": "CUR 币别 + 88888"
-},
-{
-  "name": "DB Esport",
-  "type": "Esport",
-  "logo": "logos/DB.png",
-  "openDemo": "https://www.dbgaming.com/",
-  "demoUrl": "https://www.dbgaming.com/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
 },
 {
   "name": "TFGaming",
