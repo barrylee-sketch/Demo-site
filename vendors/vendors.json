@@ -9,6 +9,16 @@
     "needsPassword": false,
     "passwordNote": ""
   },
+  {
+    "name": "DB",
+    "type": "Slot,Sport,Fishing,Live Casino,Lottery,Card Game,Esport,Scratch Card",
+    "logo": "DB.png",
+    "openDemo": "https://www.dbgaming.com/",
+    "showCard": false,
+    "demoUrl": "https://www.dbgaming.com/",
+    "needsPassword": false,
+    "passwordNote": ""
+  },  
 {
   "name": "CMDBET",
   "type": "Sport",
