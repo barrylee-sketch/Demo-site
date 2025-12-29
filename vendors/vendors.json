@@ -1031,13 +1031,33 @@
   },
   {
     "name": "AceWin",
-    "type": "Slot,Fishing,Card",
+    "type": "Slot",
     "logo": "logos/ACEWIN.png",
     "openDemo": "https://www.acewingaming.com/",
     "showCard": false,
     "demoUrl": "https://www.acewingaming.com/",
     "needsPassword": false,
     "passwordNote": ""
+  },
+  {
+   "name": "AceWin",
+    "type": "Fishing",
+    "logo": "logos/ACEWIN.png",
+    "openDemo": "https://www.acewingaming.com/",
+    "showCard": false,
+    "demoUrl": "https://www.acewingaming.com/",
+    "needsPassword": false,
+    "passwordNote": ""  
+  },
+  {
+   "name": "AceWin",
+    "type": "Card",
+    "logo": "logos/ACEWIN.png",
+    "openDemo": "https://www.acewingaming.com/",
+    "showCard": false,
+    "demoUrl": "https://www.acewingaming.com/",
+    "needsPassword": false,
+    "passwordNote": ""  
   },
   {
     "name": "AG",
