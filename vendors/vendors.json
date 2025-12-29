@@ -70,7 +70,7 @@
     "passwordNote": ""
   },
   {
-    "name": "Booming_DC",
+    "name": "Booming",
     "type": "Slot",
     "logo": "",
     "demoUrl": "https://booming-games.com/games",
@@ -80,7 +80,7 @@
     "passwordNote": ""
   },
   {
-    "name": "CG_AWC",
+    "name": "CG",
     "type": "Slot",
     "logo": "logos/CG.png",
     "demoUrl": "http://demo.awcgames.club/",
@@ -100,7 +100,7 @@
     "passwordNote": ""
   },
   {
-    "name": "CRASH88_AWC",
+    "name": "CRASH88",
     "type": "Slot",
     "logo": "",
     "demoUrl": "http://demo.awcgames.club/",
@@ -450,12 +450,12 @@
     "passwordNote": ""
   },
   {
-    "name": "AvatarUX_DC",
+    "name": "AvatarUX",
     "type": "Slot",
     "logo": "",
-    "openDemo": "",
+    "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
-    "demoUrl": "",
+    "demoUrl": "https://www.thebestslot.nu/product",
     "needsPassword": false,
     "passwordNote": ""
   },
@@ -490,7 +490,7 @@
     "passwordNote": ""
   },
   {
-    "name": "BGaming_DC",
+    "name": "BGaming",
     "type": "Slot",
     "logo": "",
     "openDemo": "https://bgaming.com/games/snoop-dogg-dollars",
@@ -1070,7 +1070,7 @@
     "passwordNote": ""
   },
   {
-    "name": "AG 电子",
+    "name": "AG",
     "type": "Slot",
     "logo": "",
     "openDemo": "https://docs.infopa.cc/",
@@ -1080,7 +1080,7 @@
     "passwordNote": ""
   },
   {
-    "name": "AG 体育",
+    "name": "AG",
     "type": "Sport",
     "logo": "",
     "openDemo": "https://docs.infopa.cc/",
@@ -1090,7 +1090,7 @@
     "passwordNote": ""
   },
   {
-    "name": "AG 捕鱼",
+    "name": "AG",
     "type": "Fishing",
     "logo": "",
     "openDemo": "https://docs.infopa.cc/",
@@ -1340,7 +1340,7 @@
   "passwordNote": ""
 },
 {
-  "name": "CREEDROOMZ_AWC",
+  "name": "CREEDROOMZ",
   "type": "Live",
   "logo": "logos/CREEDROOMZ.png",
   "openDemo": "http://demo.awcgames.club/",
@@ -1399,6 +1399,16 @@
   "needsPassword": true,
   "passwordNote": "帐号：tfdemo01｜密码：jhpnm1"
 },
+{
+  "name": "AOG",
+  "type": "Cockfight",
+  "logo": "",
+  "openDemo": "https://devgame.wgb168.com/player?game_code=COCKFIGHT01",
+  "demoUrl": "https://devgame.wgb168.com/player?game_code=COCKFIGHT01",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},    
 {
   "name": "SABA_AWC",
   "type": "Virtual",
