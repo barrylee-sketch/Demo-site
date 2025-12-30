@@ -91,7 +91,7 @@
   },
   {
     "name": "JILI",
-    "type": "Slot,Fishing,Card Game",
+    "type": "Slot",
     "logo": "logos/JILI.png",
     "demoUrl": "https://jiligames.com/",
     "openDemo": "https://jiligames.com/",
@@ -370,7 +370,7 @@
     "passwordNote": ""
   },
   {
-    "name": "Winfast_DC",
+    "name": "Winfast",
     "type": "Slot",
     "logo": "",
     "demoUrl": "https://www.thebestslot.nu/product",
@@ -510,7 +510,7 @@
     "passwordNote": ""
   },
   {
-    "name": "DRAGOONSOFT_AWC",
+    "name": "DRAGOONSOFT",
     "type": "Slot",
     "logo": "",
     "openDemo": "http://demo.awcgames.club/",
@@ -520,7 +520,7 @@
     "passwordNote": "CUR 币别 + 88888"
   },
   {
-    "name": "EVOPLAY_DC",
+    "name": "EVOPLAY",
     "type": "Slot",
     "logo": "",
     "openDemo": "https://www.thebestslot.nu/product",
@@ -530,7 +530,7 @@
     "passwordNote": ""
   },
   {
-    "name": "FAST_SPIN_AWC",
+    "name": "FAST_SPIN",
     "type": "Slot",
     "logo": "",
     "openDemo": "https://www.thebestslot.nu/product",
@@ -550,7 +550,7 @@
     "passwordNote": ""
   },
   {
-    "name": "FIVEG_AWC",
+    "name": "FIVEG",
     "type": "Slot",
     "logo": "",
     "openDemo": "http://demo.awcgames.club/",
@@ -560,7 +560,7 @@
     "passwordNote": ""
   },
   {
-    "name": "Fantasma_DC",
+    "name": "Fantasma",
     "type": "Slot",
     "logo": "",
     "openDemo": "",
@@ -570,7 +570,7 @@
     "passwordNote": ""
   },
   {
-    "name": "FunTaGaming_DC",
+    "name": "FunTaGaming",
     "type": "Slot",
     "logo": "",
     "openDemo": "",
@@ -600,7 +600,7 @@
     "passwordNote": ""
   },
   {
-    "name": "GTF_AWC",
+    "name": "GTF",
     "type": "Slot",
     "logo": "",
     "openDemo": "",
@@ -610,17 +610,7 @@
     "passwordNote": ""
   },
   {
-    "name": "HacksawGaming_DC",
-    "type": "Slot",
-    "logo": "",
-    "openDemo": "",
-    "showCard": false,
-    "demoUrl": "",
-    "needsPassword": false,
-    "passwordNote": ""
-  },
-  {
-    "name": "HacksawGaming_AWC",
+    "name": "HacksawGaming",
     "type": "Slot",
     "logo": "",
     "openDemo": "",
@@ -640,7 +630,7 @@
     "passwordNote": ""
   },
   {
-    "name": "ILOVEU_AWC",
+    "name": "ILOVEU",
     "type": "Slot",
     "logo": "",
     "openDemo": "",
@@ -670,17 +660,7 @@
     "passwordNote": ""
   },
   {
-    "name": "Joker_AWC",
-    "type": "Slot",
-    "logo": "",
-    "openDemo": "",
-    "showCard": false,
-    "demoUrl": "",
-    "needsPassword": false,
-    "passwordNote": ""
-  },
-  {
-    "name": "JJ_AWC",
+    "name": "JJ",
     "type": "Slot",
     "logo": "",
     "openDemo": "",
@@ -720,24 +700,14 @@
     "passwordNote": ""
   },
   {
-    "name": "Netent_AWC",
+    "name": "Netent",
     "type": "Slot",
     "logo": "",
-    "openDemo": "",
-    "demoUrl": "",
-    "showCard": false,
-    "needsPassword": false,
-    "passwordNote": ""
-  },
-  {
-    "name": "Netent_DC",
-    "type": "Slot",
-    "logo": "",
-    "openDemo": "",
-    "demoUrl": "",
-    "showCard": false,
-    "needsPassword": false,
-    "passwordNote": ""
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "CUR 币别 + 88888"
   },
   {
     "name": "Nextspin",
@@ -750,7 +720,17 @@
     "passwordNote": ""
   },
   {
-    "name": "NoLimitCity_AWC",
+    "name": "NoLimitCity",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "CUR 币别 + 88888"
+  },
+  {
+    "name": "Novomatic",
     "type": "Slot",
     "logo": "",
     "openDemo": "",
@@ -760,44 +740,14 @@
     "passwordNote": ""
   },
   {
-    "name": "NoLimitCity_DC",
+    "name": "OCtoplay",
     "type": "Slot",
     "logo": "",
-    "openDemo": "",
-    "demoUrl": "",
-    "showCard": false,
-    "needsPassword": false,
-    "passwordNote": ""
-  },
-  {
-    "name": "Novomatic_DC",
-    "type": "Slot",
-    "logo": "",
-    "openDemo": "",
-    "demoUrl": "",
-    "showCard": false,
-    "needsPassword": false,
-    "passwordNote": ""
-  },
-  {
-    "name": "OCtoplay_DC",
-    "type": "Slot",
-    "logo": "",
-    "openDemo": "",
-    "demoUrl": "",
-    "showCard": false,
-    "needsPassword": false,
-    "passwordNote": ""
-  },
-  {
-    "name": "OCtoplay_AWC",
-    "type": "Slot",
-    "logo": "",
-    "openDemo": "",
-    "demoUrl": "",
-    "showCard": false,
-    "needsPassword": false,
-    "passwordNote": ""
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "CUR 币别 + 88888"
   },
   {
     "name": "PlaynGO",
@@ -920,7 +870,7 @@
     "passwordNote": ""
   },
   {
-    "name": "KA",
+    "name": "KA Gaming",
     "type": "Card",
     "logo": "",
     "demoUrl": "https://halltest.kaga88.com/#/",
@@ -1410,8 +1360,8 @@
   "passwordNote": ""
 },    
 {
-  "name": "SABA_AWC",
-  "type": "Virtual",
+  "name": "SABA",
+  "type": "Sports",
   "logo": "logos/SABA.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
