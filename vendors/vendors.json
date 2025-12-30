@@ -47,7 +47,7 @@
   "showCard": false,
   "demoUrl": "http://demo.awcgames.club/",
   "needsPassword": true,
-  "passwordNote": "CUR 币别 + 88888"
+  "passwordNote": "thb88888"
 },
   {
     "name": "BTG",
@@ -87,7 +87,7 @@
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "CUR 币别 + 88888"
+    "passwordNote": "thb88888"
   },
   {
     "name": "JILI",
@@ -107,7 +107,7 @@
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "CUR 币别 + 88888"
+    "passwordNote": "thb88888"
   },
   {
     "name": "Radi8",
@@ -155,9 +155,9 @@
     "logo": "",
     "demoUrl": "https://demo-a.rt-services.co/index.html?lang=en&showRoom=1",
     "openDemo": "https://demo-a.rt-services.co/index.html?lang=en&showRoom=1",
-    "showCard": true,
-    "needsPassword": true,
-    "passwordNote": "7demo001 / 7demo002 / 7demo003"
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
   },
   {
     "name": "SEA Gaming",
@@ -420,7 +420,7 @@
     "passwordNote": ""
   },
   {
-    "name": "Blueprint_DC",
+    "name": "Blueprint",
     "type": "Slot",
     "logo": "",
     "openDemo": "https://blueprintgaming.com/games",
@@ -1028,16 +1028,6 @@
   "showCard": false,
   "needsPassword": false,
   "passwordNote": ""
-},
-{
-  "name": "YL_AWC",
-  "type": "Fishing",
-  "logo": "logos/YL.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
 },
 {
   "name": "YellowBat",
