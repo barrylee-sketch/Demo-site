@@ -457,7 +457,7 @@
     "showCard": false,
     "demoUrl": "http://demo.awcgames.club/",
     "needsPassword": false,
-    "passwordNote": "CUR 币别 + 88888"
+    "passwordNote": "thb88888"
   },
   {
     "name": "EVOPLAY",
@@ -647,7 +647,7 @@
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "CUR 币别 + 88888"
+    "passwordNote": "thb88888"
   },
   {
     "name": "Nextspin",
@@ -667,7 +667,7 @@
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "CUR 币别 + 88888"
+    "passwordNote": "thb88888"
   },
   {
     "name": "Novomatic",
@@ -687,7 +687,7 @@
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "CUR 币别 + 88888"
+    "passwordNote": "thb88888"
   },
   {
     "name": "PlaynGO",
@@ -717,7 +717,7 @@
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "CUR 币别 + 88888"
+    "passwordNote": "thb88888"
   },
   {
     "name": "Playstar",
@@ -737,7 +737,7 @@
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "CUR 币别 + 88888"
+    "passwordNote": "thb88888"
   },
   {
     "name": "PT",
@@ -757,7 +757,7 @@
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "CUR 币别 + 88888"
+    "passwordNote": "thb88888"
   },
   {
     "name": "YellowBat",
@@ -767,7 +767,7 @@
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "CUR 币别 + 88888"
+    "passwordNote": "thb88888"
   },
   {
     "name": "Big Gaming",
@@ -1037,7 +1037,7 @@
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "CUR 币别 + 88888"
+  "passwordNote": "thb88888"
 },
 {
   "name": "YellowBat",
@@ -1047,7 +1047,7 @@
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "CUR 币别 + 88888"
+  "passwordNote": "thb88888"
 },
 {
   "name": "CQ9",
@@ -1117,7 +1117,7 @@
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "CUR 币别 + 88888"
+  "passwordNote": "thb88888"
 },
 {
   "name": "SA Gaming",
@@ -1137,7 +1137,7 @@
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "CUR 币别 + 88888"
+  "passwordNote": "thb88888"
 },
 {
   "name": "Super Spade",
@@ -1167,7 +1167,7 @@
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "CUR 币别 + 88888"
+  "passwordNote": "thb88888"
 },
 {
   "name": "WM",
@@ -1187,7 +1187,7 @@
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "CUR 币别 + 88888"
+  "passwordNote": "thb88888"
 },
 {
   "name": "Skycasino",
@@ -1197,7 +1197,7 @@
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "CUR 币别 + 88888"
+  "passwordNote": "thb88888"
 },
 {
   "name": "VR GAMING",
@@ -1207,7 +1207,7 @@
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "CUR 币别 + 88888"
+  "passwordNote": "thb88888"
 },
 {
   "name": "YellowBat",
@@ -1217,7 +1217,7 @@
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "CUR 币别 + 88888"
+  "passwordNote": "thb88888"
 },
 {
   "name": "RCB",
@@ -1227,7 +1227,7 @@
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "CUR 币别 + 88888"
+  "passwordNote": "thb88888"
 },
 {
   "name": "TFGaming",
@@ -1248,7 +1248,67 @@
   "showCard": false,
   "needsPassword": false,
   "passwordNote": ""
+},
+{
+  "name": "BG",
+  "type": "Fishing",
+  "logo": "",
+  "openDemo": "http://www.bg789.com/",
+  "demoUrl": "http://www.bg789.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
 },    
+{
+  "name": "DG (DreamGaming)",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "https://new-dd-cn.20299999.com/ddnewpc/index.html?token=fbfbe66d8da444519d0123cdc16bdb7e&language=cn&type=1&return=dggw.vip",
+  "demoUrl": "https://new-dd-cn.20299999.com/ddnewpc/index.html?token=fbfbe66d8da444519d0123cdc16bdb7e&language=cn&type=1&return=dggw.vip",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},
+{
+  "name": "DIGMAAN ",
+  "type": "Cockfight",
+  "logo": "",
+  "openDemo": "http://digmaan.co/",
+  "demoUrl": "http://digmaan.co/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "Login id:dm234 / password: AAAA1111"
+},      
+{
+  "name": "E1SPORT",
+  "type": "Esport",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "thb88888"
+},      
+{
+  "name": "Evolution Gaming",
+  "type": "",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "thb88888"
+},      
+
+
+
+
+
+
+
+
+
+    
 {
   "name": "SABA",
   "type": "Sports",
