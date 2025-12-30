@@ -120,17 +120,7 @@
     "passwordNote": ""
   },
   {
-    "name": "RedTiger_AWC",
-    "type": "Slot",
-    "logo": "logos/RT.png",
-    "demoUrl": "http://demo.awcgames.club/",
-    "openDemo": "http://demo.awcgames.club/",
-    "showCard": true,
-    "needsPassword": true,
-    "passwordNote": "CUR 币别 + 88888"
-  },
-  {
-    "name": "RedTiger_DC",
+    "name": "RedTiger",
     "type": "Slot",
     "logo": "logos/RT.png",
     "demoUrl": "https://redtiger.com/",
@@ -140,7 +130,7 @@
     "passwordNote": ""
   },
   {
-    "name": "Relax_DC",
+    "name": "Relax",
     "type": "Slot",
     "logo": "logos/RELAX.png",
     "demoUrl": "https://www.thebestslot.nu/product",
@@ -148,16 +138,6 @@
     "showCard": false,
     "needsPassword": false,
     "passwordNote": ""
-  },
-  {
-    "name": "Relax_AWC",
-    "type": "Slot",
-    "logo": "logos/RELAX.png",
-    "demoUrl": "http://demo.awcgames.club/",
-    "openDemo": "http://demo.awcgames.club/",
-    "showCard": true,
-    "needsPassword": true,
-    "passwordNote": "CUR 币别 + 88888"
   },
   {
     "name": "RiCH88",
@@ -200,7 +180,7 @@
     "passwordNote": ""
   },
   {
-    "name": "Smartsoft_DC",
+    "name": "Smartsoft",
     "type": "Slot",
     "logo": "",
     "demoUrl": "https://www.thebestslot.nu/product",
@@ -210,7 +190,7 @@
     "passwordNote": ""
   },
   {
-    "name": "Slotmill_DC",
+    "name": "Slotmill",
     "type": "Slot",
     "logo": "",
     "demoUrl": "https://www.thebestslot.nu/product",
@@ -230,16 +210,6 @@
     "passwordNote": ""
   },
   {
-    "name": "SpadeGaming_AWC",
-    "type": "Slot",
-    "logo": "logos/SPADE.png",
-    "demoUrl": "http://demo.awcgames.club/",
-    "openDemo": "http://demo.awcgames.club/",
-    "showCard": true,
-    "needsPassword": true,
-    "passwordNote": "CUR 币别 + 88888"
-  },
-  {
     "name": "SplusGaming",
     "type": "Slot",
     "logo": "",
@@ -250,17 +220,7 @@
     "passwordNote": ""
   },
   {
-    "name": "SPRIBE_AWC",
-    "type": "Slot",
-    "logo": "logos/SPRIBE.png",
-    "demoUrl": "http://demo.awcgames.club/",
-    "openDemo": "http://demo.awcgames.club/",
-    "showCard": true,
-    "needsPassword": true,
-    "passwordNote": "CUR 币别 + 88888"
-  },
-  {
-    "name": "SPRIBE_DC",
+    "name": "SPRIBE",
     "type": "Slot",
     "logo": "logos/SPRIBE.png",
     "demoUrl": "https://www.thebestslot.nu/product",
@@ -290,17 +250,7 @@
     "passwordNote": ""
   },
   {
-    "name": "TADA_AWC",
-    "type": "Slot",
-    "logo": "logos/tadalogo_2.png",
-    "demoUrl": "http://demo.awcgames.club/",
-    "openDemo": "http://demo.awcgames.club/",
-    "showCard": true,
-    "needsPassword": true,
-    "passwordNote": "CUR 币别 + 88888"
-  },
-  {
-    "name": "ThunderKick_DC",
+    "name": "ThunderKick",
     "type": "Slot",
     "logo": "",
     "demoUrl": "https://www.thunderkick.com/games/",
@@ -330,7 +280,7 @@
     "passwordNote": ""
   },
   {
-    "name": "Turbo_DC",
+    "name": "Turbo",
     "type": "Slot",
     "logo": "",
     "demoUrl": "https://turbogames.io/game/chickenroute",
@@ -360,7 +310,7 @@
     "passwordNote": ""
   },
   {
-    "name": "Voltent_DC",
+    "name": "Voltent",
     "type": "Slot",
     "logo": "",
     "demoUrl": "https://www.thebestslot.nu/product",
@@ -760,7 +710,7 @@
     "passwordNote": ""
   },
   {
-    "name": "PlaynGO_DC",
+    "name": "PeterSons",
     "type": "Slot",
     "logo": "",
     "openDemo": "",
@@ -770,24 +720,14 @@
     "passwordNote": ""
   },
   {
-    "name": "PeterSons_DC",
+    "name": "Play8",
     "type": "Slot",
     "logo": "",
-    "openDemo": "",
-    "demoUrl": "",
-    "showCard": false,
-    "needsPassword": false,
-    "passwordNote": ""
-  },
-  {
-    "name": "Play8_AWC",
-    "type": "Slot",
-    "logo": "",
-    "openDemo": "",
-    "demoUrl": "",
-    "showCard": false,
-    "needsPassword": false,
-    "passwordNote": ""
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "CUR 币别 + 88888"
   },
   {
     "name": "Playstar",
@@ -803,21 +743,11 @@
     "name": "PP",
     "type": "Slot",
     "logo": "",
-    "openDemo": "",
-    "demoUrl": "",
-    "showCard": false,
-    "needsPassword": false,
-    "passwordNote": ""
-  },
-  {
-    "name": "PP_AWC",
-    "type": "Slot",
-    "logo": "",
-    "openDemo": "",
-    "demoUrl": "",
-    "showCard": false,
-    "needsPassword": false,
-    "passwordNote": ""
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "CUR 币别 + 88888"
   },
   {
     "name": "PT",
@@ -1200,7 +1130,7 @@
   "passwordNote": ""
 },
 {
-  "name": "ROYALGAMING_AWC",
+  "name": "ROYALGAMING",
   "type": "Live",
   "logo": "",
   "openDemo": "http://demo.awcgames.club/",
@@ -1220,17 +1150,7 @@
   "passwordNote": ""
 },
 {
-  "name": "SA Gaming_DC",
-  "type": "Live",
-  "logo": "",
-  "openDemo": "https://www.sagaming.com/trial",
-  "demoUrl": "https://www.sagaming.com/trial",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "Sexy_AWC",
+  "name": "Sexy",
   "type": "Live",
   "logo": "logos/SEXYBCRT.png",
   "openDemo": "http://demo.awcgames.club/",
@@ -1250,16 +1170,6 @@
   "passwordNote": "帐号 Testuser / 密码 Test@123"
 },
 {
-  "name": "TADA_AWC",
-  "type": "Live",
-  "logo": "logos/tadalogo_2.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "CUR 币别 + 88888"
-},
-{
   "name": "ViA Casino",
   "type": "Live",
   "logo": "logos/VIACASINO.png",
@@ -1270,7 +1180,7 @@
   "passwordNote": ""
 },
 {
-  "name": "WINFINITY_AWC",
+  "name": "WINFINITY",
   "type": "Live",
   "logo": "logos/WINFINITY.png",
   "openDemo": "http://demo.awcgames.club/",
@@ -1300,7 +1210,7 @@
   "passwordNote": "CUR 币别 + 88888"
 },
 {
-  "name": "Skycasino_AWC",
+  "name": "Skycasino",
   "type": "Live",
   "logo": "",
   "openDemo": "http://demo.awcgames.club/",
@@ -1310,7 +1220,7 @@
   "passwordNote": "CUR 币别 + 88888"
 },
 {
-  "name": "VR GAMING_AWC",
+  "name": "VR GAMING",
   "type": "Lottery",
   "logo": "logos/VRLOTTO.png",
   "openDemo": "http://demo.awcgames.club/",
@@ -1320,7 +1230,7 @@
   "passwordNote": "CUR 币别 + 88888"
 },
 {
-  "name": "YellowBat_AWC",
+  "name": "YellowBat",
   "type": "Lottery",
   "logo": "logos/YELLOWBAT.png",
   "openDemo": "http://demo.awcgames.club/",
@@ -1330,7 +1240,7 @@
   "passwordNote": "CUR 币别 + 88888"
 },
 {
-  "name": "RCB_AWC",
+  "name": "RCB",
   "type": "Horse Racing",
   "logo": "logos/HORSEBOOK.png",
   "openDemo": "http://demo.awcgames.club/",
