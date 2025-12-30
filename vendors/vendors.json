@@ -1299,16 +1299,156 @@
   "needsPassword": true,
   "passwordNote": "thb88888"
 },      
-
-
-
-
-
-
-
-
-
-    
+{
+  "name": "Ezugi",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "https://www.thebestslot.nu/product",
+  "demoUrl": "https://www.thebestslot.nu/product",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},      
+{
+  "name": "GA28",
+  "type": "Cockfight",
+  "logo": "",
+  "openDemo": "https://client.credit28.com/",
+  "demoUrl": "https://client.credit28.com/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "User:demok7 / Password:Demo1234$"
+},      
+{
+  "name": "HOTROAD",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "thb88888"
+},      
+{
+  "name": "IM (InplayMatrix)",
+  "type": "Sport",
+  "logo": "",
+  "openDemo": "https://imdemo.inplaymatrix.com/home/login",
+  "demoUrl": "https://imdemo.inplaymatrix.com/home/login",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "Account: imdemoen01/Password: asdf1234"
+},      
+{
+  "name": "Jollysport",
+  "type": "Sport",
+  "logo": "",
+  "openDemo": "https://jollydemo.dui0892.net/",
+  "demoUrl": "https://jollydemo.dui0892.net/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},      
+{
+  "name": "KY开元",
+  "type": "",
+  "logo": "",
+  "openDemo": "https://yl.ishxu648.com/",
+  "demoUrl": "https://yl.ishxu648.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},      
+{
+  "name": "Ladyluck",
+  "type": "Slot",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": "thb88888"
+},
+{
+  "name": "LEG乐游",
+  "type": "Card",
+  "logo": "",
+  "openDemo": "https://leg.kocms397.com/",
+  "demoUrl": "https://leg.kocms397.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},          
+{
+  "name": "Lucky Poker",
+  "type": "Card",
+  "logo": "",
+  "openDemo": "https://mp-vert.kocms397.com/",
+  "demoUrl": "https://mp-vert.kocms397.com/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},      
+{
+  "name": "Lucky Sports",
+  "type": "Sport",
+  "logo": "",
+  "openDemo": "https://exdemo.uni247.xyz/",
+  "demoUrl": "https://exdemo.uni247.xyz/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},      
+{
+  "name": "LUDO",
+  "type": "Card",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "thb88888"
+},      
+{
+  "name": "Odin Gamecock",
+  "type": "Cockfight",
+  "logo": "",
+  "openDemo": "http://odingamecock.com/",
+  "demoUrl": "http://odingamecock.com/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "Account: odingc03 / Password: Cf888888"
+},      
+{
+  "name": "Ongaming",
+  "type": "Live",
+  "logo": "",
+  "openDemo": "https://demo.oncasino.vip/",
+  "demoUrl": "https://demo.oncasino.vip/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},      
+{
+  "name": "PGSOFT",
+  "type": "Slot",
+  "logo": "",
+  "openDemo": "http://demo.awcgames.club/",
+  "demoUrl": "http://demo.awcgames.club/",
+  "showCard": true,
+  "needsPassword": true,
+  "passwordNote": "thb88888"
+},      
+{
+  "name": "Pinnacle平博",
+  "type": "Sports",
+  "logo": "",
+  "openDemo": "https://www.theapgaming.com/demo/zh-cn/",
+  "demoUrl": "https://www.theapgaming.com/demo/zh-cn/",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
+},          
 {
   "name": "SABA",
   "type": "Sports",
@@ -1317,7 +1457,7 @@
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "CUR 币别 + 88888"
+  "passwordNote": "thb88888"
 }   
 ]
 
