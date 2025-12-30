@@ -340,7 +340,7 @@
     "passwordNote": ""
   },
   {
-    "name": "Yggdrasil_DC",
+    "name": "Yggdrasil",
     "type": "Slot",
     "logo": "logos/YGGDRASIL.png",
     "demoUrl": "https://www.thebestslot.nu/product",
@@ -350,17 +350,7 @@
     "passwordNote": ""
   },
   {
-    "name": "Yggdrasil_AWC",
-    "type": "Slot",
-    "logo": "logos/YGGDRASIL.png",
-    "demoUrl": "http://demo.awcgames.club/",
-    "openDemo": "http://demo.awcgames.club/",
-    "showCard": true,
-    "needsPassword": true,
-    "passwordNote": "CUR 币别 + 88888"
-  },
-  {
-    "name": "Yolted_DC",
+    "name": "Yolted",
     "type": "Slot",
     "logo": "",
     "demoUrl": "https://www.yolted.com/games",
@@ -763,16 +753,6 @@
     "name": "YL",
     "type": "Fishing",
     "logo": "logos/YL.png",
-    "demoUrl": "https://demo0hq.ylgaming.net/",
-    "openDemo": "https://demo0hq.ylgaming.net/",
-    "showCard": false,
-    "needsPassword": false,
-    "passwordNote": ""
-  },
-  {
-    "name": "YL_AWC",
-    "type": "Fishing",
-    "logo": "logos/YL.png",
     "demoUrl": "http://demo.awcgames.club/",
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
@@ -780,7 +760,7 @@
     "passwordNote": "CUR 币别 + 88888"
   },
   {
-    "name": "YellowBat_AWC",
+    "name": "YellowBat",
     "type": "Fishing",
     "logo": "logos/YELLOWBAT.png",
     "demoUrl": "http://demo.awcgames.club/",
@@ -1060,7 +1040,7 @@
   "passwordNote": "CUR 币别 + 88888"
 },
 {
-  "name": "YellowBat_AWC",
+  "name": "YellowBat",
   "type": "Fishing",
   "logo": "logos/YELLOWBAT.png",
   "openDemo": "http://demo.awcgames.club/",
