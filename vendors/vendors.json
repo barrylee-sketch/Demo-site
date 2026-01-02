@@ -42,7 +42,7 @@
   {
   "name": "FBSPORTS",
   "type": "Sport",
-  "logo": "logos/FBSPORTS.png/",
+  "logo": "logos/FBsports.png",
   "openDemo": "http://demo.awcgames.club/",
   "showCard": false,
   "demoUrl": "http://demo.awcgames.club/",
@@ -102,7 +102,7 @@
   {
     "name": "CRASH88",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/crash88.png",
     "demoUrl": "http://demo.awcgames.club/",
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
@@ -432,7 +432,7 @@
   {
     "name": "BGaming",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/BG.png",
     "openDemo": "https://bgaming.com/games/snoop-dogg-dollars",
     "showCard": false,
     "demoUrl": "https://bgaming.com/games/snoop-dogg-dollars",
@@ -712,7 +712,7 @@
   {
     "name": "Play8",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/play8.png",
     "openDemo": "http://demo.awcgames.club/",
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
@@ -792,7 +792,7 @@
   {
     "name": "KM",
     "type": "Card",
-    "logo": "",
+    "logo": "logos/KM.png",
     "demoUrl": "https://living.cf777.club/",
     "openDemo": "https://living.cf777.club/",
     "showCard": false,
@@ -1242,7 +1242,7 @@
 {
   "name": "BG",
   "type": "Fishing",
-  "logo": "",
+  "logo": "logos/BG.png",
   "openDemo": "http://www.bg789.com/",
   "demoUrl": "http://www.bg789.com/",
   "showCard": false,
@@ -1272,7 +1272,7 @@
 {
   "name": "E1SPORT",
   "type": "Esport",
-  "logo": "",
+  "logo": "logos/E1sport.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
