@@ -242,7 +242,7 @@
   {
     "name": "TADA",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/tadalogo_2.png",
     "demoUrl": "https://tadagaming.com/PlusTrial/32/en-US",
     "openDemo": "https://tadagaming.com/PlusTrial/32/en-US",
     "showCard": false,
