@@ -2,7 +2,7 @@
 {
     "name": "AFB",
     "type": "Sport",
-    "logo": "",
+    "logo": "logos/k36.png",
     "openDemo": "https://afbdemo.com/",
     "showCard": false,
     "demoUrl": "https://afbdemo.com/",
@@ -22,7 +22,7 @@
 {
   "name": "CMDBET",
   "type": "Sport",
-  "logo": "",
+  "logo": "logos/k36.png",
   "openDemo": "https://www.368connect.net/mem/sportsbook.aspx",
   "showCard": false,
   "demoUrl": "https://www.368connect.net/mem/sportsbook.aspx",
@@ -32,7 +32,7 @@
   {
   "name": "UG",
   "type": "Sport",
-  "logo": "",
+  "logo": "logos/k36.png",
   "openDemo": "https://demo.unitedgaming.com/",
   "showCard": false,
   "demoUrl": "https://demo.unitedgaming.com/",
