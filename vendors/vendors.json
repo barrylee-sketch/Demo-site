@@ -1382,7 +1382,7 @@
 {
   "name": "Lucky Sports",
   "type": "Sport",
-  "logo": "",
+  "logo": "logos/LuckySports.png",
   "openDemo": "https://exdemo.uni247.xyz/",
   "demoUrl": "https://exdemo.uni247.xyz/",
   "showCard": false,
