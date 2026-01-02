@@ -182,7 +182,7 @@
   {
     "name": "Smartsoft",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/Smartsoft.png",
     "demoUrl": "https://www.thebestslot.nu/product",
     "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
@@ -452,7 +452,7 @@
   {
     "name": "DRAGOONSOFT",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/Dragonsoft.png",
     "openDemo": "http://demo.awcgames.club/",
     "showCard": false,
     "demoUrl": "http://demo.awcgames.club/",
@@ -472,7 +472,7 @@
   {
     "name": "FAST_SPIN",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/Fastspin.png",
     "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
     "demoUrl": "https://www.thebestslot.nu/product",
@@ -482,7 +482,7 @@
   {
     "name": "FC发财电子",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/FC.png",
     "openDemo": "https://fachaigaming.com/",
     "showCard": false,
     "demoUrl": "https://fachaigaming.com/",
@@ -492,7 +492,7 @@
   {
     "name": "FIVEG",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/5G.png",
     "openDemo": "http://demo.awcgames.club/",
     "showCard": false,
     "demoUrl": "http://demo.awcgames.club/",
@@ -542,7 +542,7 @@
   {
     "name": "GTF",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/GTF.png",
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
     "demoUrl": "http://demo.awcgames.club/",
@@ -552,7 +552,7 @@
   {
     "name": "HacksawGaming",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/Hacksaw.png",
     "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
     "demoUrl": "https://www.thebestslot.nu/product",
@@ -582,7 +582,7 @@
   {
     "name": "JDB",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/JDB.png",
     "openDemo": "https://www.jdbgaming.com/en/games/list",
     "showCard": false,
     "demoUrl": "https://www.jdbgaming.com/en/games/list",
@@ -592,7 +592,7 @@
   {
     "name": "Joker",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/JOKER.png",
     "openDemo": "https://www.jokerzone68.com/",
     "showCard": false,
     "demoUrl": "https://www.jokerzone68.com/",
@@ -602,7 +602,7 @@
   {
     "name": "JJ",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/JJ.png",
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
     "demoUrl": "http://demo.awcgames.club/",
@@ -642,7 +642,7 @@
   {
     "name": "Netent",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/netent.png",
     "openDemo": "http://demo.awcgames.club/",
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
@@ -662,7 +662,7 @@
   {
     "name": "NoLimitCity",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/NoLimit .png",
     "openDemo": "http://demo.awcgames.club/",
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
@@ -682,7 +682,7 @@
   {
     "name": "OCtoplay",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/octoplay.png",
     "openDemo": "http://demo.awcgames.club/",
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
@@ -692,7 +692,7 @@
   {
     "name": "PlaynGO",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/Play'n GO.png",
     "openDemo": "http://www.playngo.com/games",
     "demoUrl": "http://www.playngo.com/games",
     "showCard": false,
@@ -722,7 +722,7 @@
   {
     "name": "Playstar",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/Playstar.png",
     "openDemo": "https://www.playstar.net/",
     "demoUrl": "https://www.playstar.net/",
     "showCard": false,
@@ -742,7 +742,7 @@
   {
     "name": "PT",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/Playtech Logo.png",
     "openDemo": "https://demo.playinasia.com/",
     "demoUrl": "https://demo.playinasia.com/",
     "showCard": false,
@@ -1102,7 +1102,7 @@
 {
   "name": "ROYALGAMING",
   "type": "Live",
-  "logo": "",
+  "logo": "logos/royalgaming.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
@@ -1252,7 +1252,7 @@
 {
   "name": "DG (DreamGaming)",
   "type": "Live",
-  "logo": "",
+  "logo": "logos/DG.png",
   "openDemo": "https://new-dd-cn.20299999.com/ddnewpc/index.html?token=fbfbe66d8da444519d0123cdc16bdb7e&language=cn&type=1&return=dggw.vip",
   "demoUrl": "https://new-dd-cn.20299999.com/ddnewpc/index.html?token=fbfbe66d8da444519d0123cdc16bdb7e&language=cn&type=1&return=dggw.vip",
   "showCard": false,
@@ -1282,7 +1282,7 @@
 {
   "name": "Evolution Gaming",
   "type": "",
-  "logo": "",
+  "logo": "logos/evolution.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
@@ -1312,7 +1312,7 @@
 {
   "name": "HOTROAD",
   "type": "Live",
-  "logo": "",
+  "logo": "logos/Hotroad.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
@@ -1352,7 +1352,7 @@
 {
   "name": "Ladyluck",
   "type": "Slot",
-  "logo": "",
+  "logo": "logos/Ladyluck.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": false,
@@ -1372,7 +1372,7 @@
 {
   "name": "Lucky Poker",
   "type": "Card",
-  "logo": "",
+  "logo": "logos/Luckypoker.png",
   "openDemo": "https://mp-vert.kocms397.com/",
   "demoUrl": "https://mp-vert.kocms397.com/",
   "showCard": false,
@@ -1392,7 +1392,7 @@
 {
   "name": "LUDO",
   "type": "Card",
-  "logo": "",
+  "logo": "logos/LudoBet Logo.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
@@ -1432,7 +1432,7 @@
 {
   "name": "Pinnacle平博",
   "type": "Sports",
-  "logo": "",
+  "logo": "logos/Pinnacle.png",
   "openDemo": "https://www.theapgaming.com/demo/zh-cn/",
   "demoUrl": "https://www.theapgaming.com/demo/zh-cn/",
   "showCard": false,
