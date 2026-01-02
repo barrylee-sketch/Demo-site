@@ -42,7 +42,7 @@
   {
   "name": "FBSPORTS",
   "type": "Sport",
-  "logo": "",
+  "logo": "logos/FBSPORTS.png/",
   "openDemo": "http://demo.awcgames.club/",
   "showCard": false,
   "demoUrl": "http://demo.awcgames.club/",
@@ -1422,7 +1422,7 @@
 {
   "name": "PGSOFT",
   "type": "Slot",
-  "logo": "",
+  "logo": "logos/PGSOFT.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
