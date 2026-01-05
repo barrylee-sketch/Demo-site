@@ -282,7 +282,7 @@
   {
     "name": "Turbo",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/5.TurboGames Logo_white2.png",
     "demoUrl": "https://turbogames.io/game/chickenroute",
     "openDemo": "https://turbogames.io/game/chickenroute",
     "showCard": false,
