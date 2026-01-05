@@ -462,7 +462,7 @@
   {
     "name": "EVOPLAY",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/2.Evoplay Logo.png",
     "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
     "demoUrl": "https://www.thebestslot.nu/product",
@@ -512,7 +512,7 @@
   {
     "name": "FunTaGaming",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/funta-gaming_logo_01_7.png",
     "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
     "demoUrl": "https://www.thebestslot.nu/product",
