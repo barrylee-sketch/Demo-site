@@ -44,7 +44,7 @@
   "type": "Sport",
   "logo": "logos/FBsports.png",
   "openDemo": "http://demo.awcgames.club/",
-  "showCard": false,
+  "showCard": true,
   "demoUrl": "http://demo.awcgames.club/",
   "needsPassword": true,
   "passwordNote": "thb88888"
@@ -454,9 +454,9 @@
     "type": "Slot",
     "logo": "logos/Dragonsoft.png",
     "openDemo": "http://demo.awcgames.club/",
-    "showCard": false,
+    "showCard": true,
     "demoUrl": "http://demo.awcgames.club/",
-    "needsPassword": false,
+    "needsPassword": true,
     "passwordNote": "thb88888"
   },
   {
@@ -494,10 +494,10 @@
     "type": "Slot",
     "logo": "logos/5G.png",
     "openDemo": "http://demo.awcgames.club/",
-    "showCard": false,
+    "showCard": true,
     "demoUrl": "http://demo.awcgames.club/",
-    "needsPassword": false,
-    "passwordNote": ""
+    "needsPassword": true,
+    "passwordNote": "thb88888"
   },
   {
     "name": "Fantasma",
@@ -1345,8 +1345,8 @@
   "logo": "logos/Ladyluck.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
-  "showCard": false,
-  "needsPassword": false,
+  "showCard": true,
+  "needsPassword": true,
   "passwordNote": "thb88888"
 },
 {
