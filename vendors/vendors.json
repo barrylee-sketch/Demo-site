@@ -322,7 +322,7 @@
   {
     "name": "Winfast",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/WINFAST.png",
     "demoUrl": "https://www.thebestslot.nu/product",
     "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
@@ -382,7 +382,7 @@
   {
     "name": "7Mojos",
     "type": "Slot,Live Casino",
-    "logo": "",
+    "logo": "logos/7Mojos.png",
     "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
     "demoUrl": "https://www.thebestslot.nu/product",
@@ -392,7 +392,7 @@
   {
     "name": "AvatarUX",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/AUX.png",
     "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
     "demoUrl": "https://www.thebestslot.nu/product",
@@ -422,7 +422,7 @@
   {
     "name": "Blueprint",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/Blueprint.png",
     "openDemo": "https://blueprintgaming.com/games",
     "showCard": false,
     "demoUrl": "https://blueprintgaming.com/games",
@@ -502,7 +502,7 @@
   {
     "name": "Fantasma",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/Fantasma 2.png",
     "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
     "demoUrl": "https://www.thebestslot.nu/product",
@@ -692,7 +692,7 @@
   {
     "name": "PlaynGO",
     "type": "Slot",
-    "logo": "logos/Play'n GO.png",
+    "logo": "logos/3.Play'n GO Logo_GO_standard_500x500.png",
     "openDemo": "http://www.playngo.com/games",
     "demoUrl": "http://www.playngo.com/games",
     "showCard": false,
@@ -1112,7 +1112,7 @@
 {
   "name": "SA Gaming",
   "type": "Live",
-  "logo": "",
+  "logo": "logos/SA_Gaming.png",
   "openDemo": "https://www.sagaming.com/",
   "demoUrl": "https://www.sagaming.com/",
   "showCard": false,
@@ -1292,7 +1292,7 @@
 {
   "name": "Ezugi",
   "type": "Live",
-  "logo": "",
+  "logo": "logos/6.Ezugi Logo_Light.png",
   "openDemo": "https://www.thebestslot.nu/product",
   "demoUrl": "https://www.thebestslot.nu/product",
   "showCard": false,
