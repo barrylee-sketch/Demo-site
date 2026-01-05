@@ -2,7 +2,7 @@
 {
     "name": "AFB",
     "type": "Sport",
-    "logo": "logos/k36.png",
+    "logo": "logos/K36.png",
     "openDemo": "https://afbdemo.com/",
     "showCard": false,
     "demoUrl": "https://afbdemo.com/",
@@ -22,7 +22,7 @@
 {
   "name": "CMDBET",
   "type": "Sport",
-  "logo": "logos/k36.png",
+  "logo": "logos/K36.png",
   "openDemo": "https://www.368connect.net/mem/sportsbook.aspx",
   "showCard": false,
   "demoUrl": "https://www.368connect.net/mem/sportsbook.aspx",
@@ -32,7 +32,7 @@
   {
   "name": "UG",
   "type": "Sport",
-  "logo": "logos/k36.png",
+  "logo": "logos/K36.png",
   "openDemo": "https://demo.unitedgaming.com/",
   "showCard": false,
   "demoUrl": "https://demo.unitedgaming.com/",
@@ -62,7 +62,7 @@
   {
     "name": "Bunfox",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/K36.png",
     "demoUrl": "https://www.qoragames.com/",
     "openDemo": "https://www.qoragames.com/",
     "showCard": false,
@@ -112,7 +112,7 @@
   {
     "name": "Radi8",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/K36.png",
     "demoUrl": "https://www.qoragames.com/",
     "openDemo": "https://www.qoragames.com/",
     "showCard": false,
@@ -142,7 +142,7 @@
   {
     "name": "RiCH88",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/K36.png",
     "demoUrl": "https://demo.r88games.com/",
     "openDemo": "https://demo.r88games.com/",
     "showCard": false,
@@ -152,7 +152,7 @@
   {
     "name": "RTG",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/K36.png",
     "demoUrl": "https://demo-a.rt-services.co/index.html?lang=en&showRoom=1",
     "openDemo": "https://demo-a.rt-services.co/index.html?lang=en&showRoom=1",
     "showCard": false,
@@ -162,7 +162,7 @@
   {
     "name": "SEA Gaming",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/K36.png",
     "demoUrl": "https://www.sagaming.com/",
     "openDemo": "https://www.sagaming.com/",
     "showCard": false,
@@ -172,7 +172,7 @@
   {
     "name": "SimplePlay",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/K36.png",
     "demoUrl": "http://simpleplay.com/",
     "openDemo": "http://simpleplay.com/",
     "showCard": false,
@@ -212,7 +212,7 @@
   {
     "name": "SplusGaming",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/K36.png",
     "demoUrl": "http://www.splus.games/demo",
     "openDemo": "http://www.splus.games/demo",
     "showCard": false,
@@ -232,7 +232,7 @@
   {
     "name": "SuperSpade",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/K36.png",
     "demoUrl": "https://www.superspadegames.com/",
     "openDemo": "https://www.superspadegames.com/",
     "showCard": true,
@@ -262,7 +262,7 @@
   {
     "name": "TP",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/K36.png",
     "demoUrl": "https://www.topplayer888.com/tp/",
     "openDemo": "https://www.topplayer888.com/tp/",
     "showCard": false,
@@ -272,7 +272,7 @@
   {
     "name": "TTG",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/K36.png",
     "demoUrl": "https://www.toptrendgaming.com/games",
     "openDemo": "https://www.toptrendgaming.com/games",
     "showCard": false,
@@ -292,7 +292,7 @@
   {
     "name": "VA Gaming",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/K36.png",
     "demoUrl": "https://www.va-game.com/hk",
     "openDemo": "https://www.va-game.com/hk",
     "showCard": false,
@@ -302,7 +302,7 @@
   {
     "name": "VG",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/K36.png",
     "demoUrl": "https://91vgames.com/",
     "openDemo": "https://91vgames.com/",
     "showCard": false,
@@ -332,7 +332,7 @@
   {
     "name": "XIN",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/K36.png",
     "demoUrl": "https://docs.infopa.cc/",
     "openDemo": "https://docs.infopa.cc/",
     "showCard": false,
