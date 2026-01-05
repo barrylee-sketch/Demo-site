@@ -252,7 +252,7 @@
   {
     "name": "ThunderKick",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/2.ThunderKick Logo_Horizontal_Logotype_WHITE.png",
     "demoUrl": "https://www.thunderkick.com/games/",
     "openDemo": "https://www.thunderkick.com/games/",
     "showCard": false,
@@ -312,7 +312,7 @@
   {
     "name": "Voltent",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/2.Wazdan Logo_White.png",
     "demoUrl": "https://www.thebestslot.nu/product",
     "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
@@ -642,7 +642,7 @@
   {
     "name": "Netent",
     "type": "Slot",
-    "logo": "logos/netent.png",
+    "logo": "logos/2.NetEnt Logo_online_all_white.png",
     "openDemo": "http://demo.awcgames.club/",
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
@@ -672,7 +672,7 @@
   {
     "name": "Novomatic",
     "type": "Slot",
-    "logo": "",
+    "logo": "logos/novomatic-1-line-logo-white.png",
     "openDemo": "https://www.novomatic.com/en/games-0",
     "demoUrl": "https://www.novomatic.com/en/games-0",
     "showCard": false,
@@ -682,7 +682,7 @@
   {
     "name": "OCtoplay",
     "type": "Slot",
-    "logo": "logos/octoplay.png",
+    "logo": "logos/octoplay-logo-horizontal_white.png",
     "openDemo": "http://demo.awcgames.club/",
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
