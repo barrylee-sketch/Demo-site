@@ -833,9 +833,9 @@
     "name": "世彩 GW",
     "type": "Lottery",
     "logo": "logos/K36.png",
-    "openDemo": "https://gworld.shicai-intl.com",
+    "openDemo": "gworld.shicai-intl.com",
     "showCard": false,
-    "demoUrl": "https://gworld.shicai-intl.com",
+    "demoUrl": "gworld.shicai-intl.com",
     "needsPassword": false,
     "passwordNote": ""
   },
