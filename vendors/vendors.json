@@ -143,8 +143,8 @@
     "name": "RiCH88",
     "type": "Slot",
     "logo": "logos/K36.png",
-    "demoUrl": "https://demo.r88games.com/",
-    "openDemo": "https://demo.r88games.com/",
+    "demoUrl": "https://demo.rich88games.com/",
+    "openDemo": "https://demo.rich88games.com/",
     "showCard": false,
     "needsPassword": false,
     "passwordNote": ""
@@ -533,9 +533,9 @@
     "name": "GNS",
     "type": "Slot",
     "logo": "logos/K36.png",
-    "openDemo": "https://www.genesis-games.com/",
+    "openDemo": "https://www.qoragames.com/about-qora/",
     "showCard": false,
-    "demoUrl": "https://www.genesis-games.com/",
+    "demoUrl": "https://www.qoragames.com/about-qora/",
     "needsPassword": false,
     "passwordNote": ""
   },
@@ -770,34 +770,24 @@
     "passwordNote": "thb88888"
   },
   {
-    "name": "Big Gaming",
-    "type": "Card",
-    "logo": "logos/K36.png",
-    "demoUrl": "http://biggaming.cc/",
-    "openDemo": "http://biggaming.cc/",
-    "showCard": false,
-    "needsPassword": false,
-    "passwordNote": ""
-  },
-  {
     "name": "KA Gaming",
     "type": "Card",
     "logo": "logos/K36.png",
-    "demoUrl": "https://halltest.kaga88.com/#/",
-    "openDemo": "https://halltest.kaga88.com/#/",
+    "demoUrl": "https://www.kaga88.com/",
+    "openDemo": "https://www.kaga88.com/",
     "showCard": false,
     "needsPassword": false,
     "passwordNote": ""
   },
   {
-    "name": "KM",
+    "name": "King midas",
     "type": "Card",
     "logo": "logos/KM.png",
-    "demoUrl": "https://living.cf777.club/",
-    "openDemo": "https://living.cf777.club/",
-    "showCard": false,
-    "needsPassword": false,
-    "passwordNote": ""
+    "demoUrl": "http://demo.awcgames.club/",
+    "openDemo": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "thb88888"
   },
   {
     "name": "168Games",
@@ -1230,7 +1220,7 @@
   "passwordNote": ""
 },
 {
-  "name": "BG",
+  "name": "BGaming",
   "type": "Fishing",
   "logo": "logos/BG.png",
   "openDemo": "http://www.bg789.com/",
