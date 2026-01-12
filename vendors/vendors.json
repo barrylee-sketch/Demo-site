@@ -803,9 +803,9 @@
     "name": "365棋牌",
     "type": "Card",
     "logo": "logos/K36.png",
-    "openDemo": "https://py324.365gaming.cc/player/demoWeb.jsp",
+    "openDemo": "https://py324.gs365cr.net/player/demoWeb.jsp",
     "showCard": false,
-    "demoUrl": "https://py324.365gaming.cc/player/demoWeb.jsp",
+    "demoUrl": "https://py324.gs365cr.net/player/demoWeb.jsp",
     "needsPassword": false,
     "passwordNote": ""
   },
