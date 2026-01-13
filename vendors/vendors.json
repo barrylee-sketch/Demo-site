@@ -11,7 +11,7 @@
   },
   {
     "name": "DB",
-    "type": "Slot,Sport,Fishing,Live,Lottery,Card,Esport,Scratch Card",
+    "type": "Slot, Sport, Fishing, Live, Lottery, Card,Esport, Scratch Card",
     "logo": "logos/DB.png",
     "openDemo": "https://www.dbgaming.com/",
     "showCard": false,
