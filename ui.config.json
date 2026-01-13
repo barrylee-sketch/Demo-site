@@ -1,0 +1,15 @@
+{
+  "theme": {
+    "accent": "#00f5e0",
+    "background": "#070709",
+    "card": "#131316",
+    "muted": "#8b8c90",
+    "sidebar": "#0b0b0d",
+    "glow": "0 6px 20px rgba(0,245,224,0.08)"
+  },
+  "layout": {
+    "sidebarWidth": 270,
+    "cardRadius": 16,
+    "cardGap": 18
+  }
+}
