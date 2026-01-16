@@ -22,7 +22,7 @@
 {
   "name": "CMDBET",
   "type": "Sport",
-  "logo": "logos/K36.png",
+  "logo": "logos/CMD.png",
   "openDemo": "https://www.368connect.net/mem/sportsbook.aspx",
   "showCard": false,
   "demoUrl": "https://www.368connect.net/mem/sportsbook.aspx",
@@ -32,7 +32,7 @@
   {
   "name": "UG",
   "type": "Sport",
-  "logo": "logos/K36.png",
+  "logo": "logos/UG.png",
   "openDemo": "https://demo.unitedgaming.com/",
   "showCard": false,
   "demoUrl": "https://demo.unitedgaming.com/",
@@ -212,7 +212,7 @@
   {
     "name": "SplusGaming",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/splus.png",
     "demoUrl": "http://www.splus.games/demo",
     "openDemo": "http://www.splus.games/demo",
     "showCard": false,
@@ -262,7 +262,7 @@
   {
     "name": "TP",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/tp.png",
     "demoUrl": "https://www.topplayer888.com/tp/",
     "openDemo": "https://www.topplayer888.com/tp/",
     "showCard": false,
@@ -292,7 +292,7 @@
   {
     "name": "VA Gaming",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/VA.png",
     "demoUrl": "https://www.va-game.com/hk",
     "openDemo": "https://www.va-game.com/hk",
     "showCard": false,
@@ -302,7 +302,7 @@
   {
     "name": "VG",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/VG.png",
     "demoUrl": "https://91vgames.com/",
     "openDemo": "https://91vgames.com/",
     "showCard": false,
@@ -362,7 +362,7 @@
   {
     "name": "Yoplay",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/Yoplay.png",
     "demoUrl": "https://docs.infopa.cc/",
     "openDemo": "https://docs.infopa.cc/",
     "showCard": false,
@@ -372,7 +372,7 @@
   {
     "name": "AdvantPlay",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/AP.png",
     "openDemo": "https://fun.dgkqzfhi.com/web/fun/funplay?game=10076",
     "showCard": false,
     "demoUrl": "https://fun.dgkqzfhi.com/web/fun/funplay?game=10076",
@@ -402,7 +402,7 @@
   {
     "name": "Aviatrix",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/avatar.png",
     "openDemo": "https://www.aviatrix.bet/",
     "showCard": false,
     "demoUrl": "https://www.aviatrix.bet/",
@@ -442,7 +442,7 @@
   {
     "name": "BNG",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/BNG.png",
     "openDemo": "https://asia.bng.games/games/",
     "showCard": false,
     "demoUrl": "https://asia.bng.games/games/",
@@ -612,7 +612,7 @@
   {
     "name": "KA Gaming",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/KA.png",
     "openDemo": "https://www.kaga88.com/",
     "showCard": false,
     "demoUrl": "https://www.kaga88.com/",
@@ -622,7 +622,7 @@
   {
     "name": "LGD",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/LGD.png",
     "openDemo": "http://play.dreamtech8.com/testgame/index.html",
     "demoUrl": "http://play.dreamtech8.com/testgame/index.html",
     "showCard": false,
@@ -772,7 +772,7 @@
   {
     "name": "KA Gaming",
     "type": "Card",
-    "logo": "logos/K36.png",
+    "logo": "logos/KA.png",
     "demoUrl": "https://www.kaga88.com/",
     "openDemo": "https://www.kaga88.com/",
     "showCard": false,
@@ -862,7 +862,7 @@
   {
     "name": "V8 Poker (龙城越南棋牌)",
     "type": "Card",
-    "logo": "logos/K36.png",
+    "logo": "logos/V8.png",
     "openDemo": "https://v8.kocms397.com/",
     "showCard": false,
     "demoUrl": "https://v8.kocms397.com/",
@@ -1032,7 +1032,7 @@
 {
   "name": "RiCH88",
   "type": "Card",
-  "logo": "logos/K36.png",
+  "logo": "logos/avatar.png",
   "openDemo": "https://demo.rich88games.com/",
   "demoUrl": "https://demo.rich88games.com/",
   "showCard": false,
