@@ -14,10 +14,10 @@
     "type": "Slot, Sport, Fishing, Live, Lottery, Card,Esport, Scratch Card",
     "logo": "logos/DB.png",
     "openDemo": "https://www.dbgaming.com/",
-    "showCard": false,
+    "showCard": true,
     "demoUrl": "https://www.dbgaming.com/",
-    "needsPassword": false,
-    "passwordNote": ""
+    "needsPassword": true,
+    "passwordNote": "business07/zxc654321"
   },  
 {
   "name": "CMDBET",
