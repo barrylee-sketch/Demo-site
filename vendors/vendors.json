@@ -62,7 +62,7 @@
   {
     "name": "Bunfox",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/bunfox.png",
     "demoUrl": "https://www.qoragames.com/",
     "openDemo": "https://www.qoragames.com/",
     "showCard": false,
@@ -112,7 +112,7 @@
   {
     "name": "Radi8",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/Radi8.png",
     "demoUrl": "https://www.qoragames.com/",
     "openDemo": "https://www.qoragames.com/",
     "showCard": false,
@@ -142,7 +142,7 @@
   {
     "name": "RiCH88",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/Rich.png",
     "demoUrl": "https://demo.rich88games.com/",
     "openDemo": "https://demo.rich88games.com/",
     "showCard": false,
@@ -152,7 +152,7 @@
   {
     "name": "RTG",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/RTG.png",
     "demoUrl": "https://demo-a.rt-services.co/index.html?lang=en&showRoom=1",
     "openDemo": "https://demo-a.rt-services.co/index.html?lang=en&showRoom=1",
     "showCard": false,
@@ -162,7 +162,7 @@
   {
     "name": "SEA Gaming",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/SEA.png",
     "demoUrl": "https://www.sagaming.com/",
     "openDemo": "https://www.sagaming.com/",
     "showCard": false,
@@ -232,7 +232,7 @@
   {
     "name": "SuperSpade",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/Superspade.png",
     "demoUrl": "https://www.superspadegames.com/",
     "openDemo": "https://www.superspadegames.com/",
     "showCard": true,
@@ -412,7 +412,7 @@
   {
     "name": "BBIN",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/bbin.png",
     "openDemo": "https://docs.google.com/spreadsheets/d/1vgiAK04mtb-iUYrBqAGWqPN_bmR_Fqe4Fp50IpTP9Es/edit?usp=sharing",
     "showCard": false,
     "demoUrl": "https://docs.google.com/spreadsheets/d/1vgiAK04mtb-iUYrBqAGWqPN_bmR_Fqe4Fp50IpTP9Es/edit?usp=sharing",
@@ -522,7 +522,7 @@
   {
     "name": "GB电子",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/GB.png",
     "openDemo": "https://gbgames.cc/demo/#/",
     "showCard": false,
     "demoUrl": "https://gbgames.cc/demo/#/",
@@ -532,7 +532,7 @@
   {
     "name": "GNS",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/GNS.png",
     "openDemo": "https://www.qoragames.com/about-qora/",
     "showCard": false,
     "demoUrl": "https://www.qoragames.com/about-qora/",
@@ -562,7 +562,7 @@
   {
     "name": "HB",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/HB.png",
     "openDemo": "https://haba88.com/",
     "showCard": false,
     "demoUrl": "https://haba88.com/",
@@ -572,7 +572,7 @@
   {
     "name": "ILOVEU",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/ilove.png",
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
     "demoUrl": "http://demo.awcgames.club/",
@@ -632,7 +632,7 @@
   {
     "name": "MGPlus",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/MG.png",
     "openDemo": "https://www.mgasia.com/#/zh-CN",
     "demoUrl": "https://www.mgasia.com/#/zh-CN",
     "showCard": true,
@@ -652,7 +652,7 @@
   {
     "name": "Nextspin",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/nextspin.png",
     "openDemo": "https://nextspin.com/game",
     "demoUrl": "https://nextspin.com/game",
     "showCard": false,
@@ -722,7 +722,7 @@
   {
     "name": "Playstar",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/playstar.png",
     "openDemo": "https://www.playstar.net/",
     "demoUrl": "https://www.playstar.net/",
     "showCard": false,
@@ -821,8 +821,8 @@
   },
   {
     "name": "天成TCG",
-    "type": "Lottery",
-    "logo": "logos/K36.png",
+    "type": "Card",
+    "logo": "logos/tcg.png",
     "openDemo": "https://www.tcgsea.com/",
     "showCard": false,
     "demoUrl": "https://www.tcgsea.com/",
@@ -832,7 +832,7 @@
   {
     "name": "世彩 GW",
     "type": "Lottery",
-    "logo": "logos/K36.png",
+    "logo": "logos/GW.png",
     "openDemo": "https://gworld.gw1238.online",
     "showCard": false,
     "demoUrl": "https://gworld.gw1238.online",
@@ -842,7 +842,7 @@
   {
     "name": "凯旋棋牌 KX",
     "type": "Card",
-    "logo": "logos/K36.png",
+    "logo": "logos/KX.png",
     "openDemo": "https://kx.kocms397.com/",
     "showCard": false,
     "demoUrl": "https://kx.kocms397.com/",
@@ -1282,7 +1282,7 @@
 {
   "name": "GA28",
   "type": "Cockfight",
-  "logo": "logos/K36.png",
+  "logo": "logos/ga28.png",
   "openDemo": "https://client.credit28.com/",
   "demoUrl": "https://client.credit28.com/",
   "showCard": true,
@@ -1342,7 +1342,7 @@
 {
   "name": "LEG乐游",
   "type": "Card",
-  "logo": "logos/K36.png",
+  "logo": "logos/leg.png",
   "openDemo": "https://leg.kocms397.com/",
   "demoUrl": "https://leg.kocms397.com/",
   "showCard": false,
