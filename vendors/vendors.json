@@ -2,7 +2,7 @@
 {
     "name": "AFB",
     "type": "Sport",
-    "logo": "logos/K36.png",
+    "logo": "logos/AFB.png",
     "openDemo": "https://afbdemo.com/",
     "showCard": false,
     "demoUrl": "https://afbdemo.com/",
@@ -172,7 +172,7 @@
   {
     "name": "SimplePlay",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/Simple.png",
     "demoUrl": "http://simpleplay.com/",
     "openDemo": "http://simpleplay.com/",
     "showCard": false,
@@ -732,7 +732,7 @@
   {
     "name": "PP",
     "type": "Slot",
-    "logo": "logos/K36.png",
+    "logo": "logos/PP.png",
     "openDemo": "http://demo.awcgames.club/",
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
@@ -812,7 +812,7 @@
   {
     "name": "3Sing (三昇)",
     "type": "Sport",
-    "logo": "logos/K36.png",
+    "logo": "logos/3sing.png",
     "openDemo": "http://3s.uv128.com/",
     "showCard": false,
     "demoUrl": "http://3s.uv128.com/",
@@ -872,7 +872,7 @@
   {
     "name": "博乐 BoleGaming",
     "type": "Card",
-    "logo": "logos/K36.png",
+    "logo": "logos/Bole.png",
     "openDemo": "https://www.bolegaming.com/",
     "showCard": false,
     "demoUrl": "https://www.bolegaming.com/",
@@ -942,7 +942,7 @@
   {
     "name": "Allbet 欧博",
     "type": "Live",
-    "logo": "logos/K36.png",
+    "logo": "logos/Allbet.png",
     "openDemo": "https://www.ab99.games/?l=t#/",
     "showCard": false,
     "demoUrl": "https://www.ab99.games/?l=t#/",
@@ -962,7 +962,7 @@
 {
   "name": "CQ9",
   "type": "Fishing",
-  "logo": "logos/K36.png",
+  "logo": "logos/CQ9.png",
   "openDemo": "https://demo.cqgame.games/Home",
   "demoUrl": "https://demo.cqgame.games/Home",
   "showCard": false,
@@ -972,7 +972,7 @@
 {
   "name": "RSG",
   "type": "Fishing",
-  "logo": "logos/K36.png",
+  "logo": "logos/RSG.png",
   "openDemo": "https://www.rsg-games.com/zh-TW/",
   "demoUrl": "https://www.rsg-games.com/zh-TW/",
   "showCard": false,
@@ -982,7 +982,7 @@
 {
   "name": "Simple Play",
   "type": "Fishing",
-  "logo": "logos/K36.png",
+  "logo": "logos/Simple.png",
   "openDemo": "http://simpleplay.com/",
   "demoUrl": "http://simpleplay.com/",
   "showCard": false,
@@ -1022,7 +1022,7 @@
 {
   "name": "CQ9",
   "type": "Card",
-  "logo": "logos/K36.png",
+  "logo": "logos/CQ9.png",
   "openDemo": "https://demo.cqgame.games/Home",
   "demoUrl": "https://demo.cqgame.games/Home",
   "showCard": false,
@@ -1062,7 +1062,7 @@
 {
   "name": "CQ9 Motivation",
   "type": "Live",
-  "logo": "logos/K36.png",
+  "logo": "logos/CQ9.png",
   "openDemo": "https://demo.cqgame.games/Home",
   "demoUrl": "https://demo.cqgame.games/Home",
   "showCard": false,
@@ -1072,7 +1072,7 @@
 {
   "name": "RSG",
   "type": "Live",
-  "logo": "logos/K36.png",
+  "logo": "logos/RSG.png",
   "openDemo": "https://www.rsg-games.com/zh-TW/",
   "demoUrl": "https://www.rsg-games.com/zh-TW/",
   "showCard": false,
@@ -1142,7 +1142,7 @@
 {
   "name": "WM",
   "type": "Live",
-  "logo": "logos/K36.png",
+  "logo": "logos/WM.png",
   "openDemo": "http://wm555.net/",
   "demoUrl": "http://wm555.net/",
   "showCard": false,
@@ -1162,7 +1162,7 @@
 {
   "name": "Skycasino",
   "type": "Live",
-  "logo": "logos/K36.png",
+  "logo": "logos/sky.png",
   "openDemo": "http://demo.awcgames.club/",
   "demoUrl": "http://demo.awcgames.club/",
   "showCard": true,
@@ -1202,7 +1202,7 @@
 {
   "name": "TFGaming",
   "type": "Esport",
-  "logo": "logos/K36.png",
+  "logo": "logos/TF.png",
   "openDemo": "http://tfgaming.net/?demo=true",
   "demoUrl": "http://tfgaming.net/?demo=true",
   "showCard": true,
@@ -1242,7 +1242,7 @@
 {
   "name": "DIGMAAN ",
   "type": "Cockfight",
-  "logo": "logos/K36.png",
+  "logo": "logos/Digmaan.png",
   "openDemo": "http://digmaan.co/",
   "demoUrl": "http://digmaan.co/",
   "showCard": true,
@@ -1302,7 +1302,7 @@
 {
   "name": "IM (InplayMatrix)",
   "type": "Sport",
-  "logo": "logos/K36.png",
+  "logo": "logos/IM.png",
   "openDemo": "https://imdemo.inplaymatrix.com/home/login",
   "demoUrl": "https://imdemo.inplaymatrix.com/home/login",
   "showCard": true,
@@ -1312,7 +1312,7 @@
 {
   "name": "Jollysport",
   "type": "Sport",
-  "logo": "logos/K36.png",
+  "logo": "logos/Jolly.png",
   "openDemo": "https://jollydemo.dui0892.net/",
   "demoUrl": "https://jollydemo.dui0892.net/",
   "showCard": false,
@@ -1322,7 +1322,7 @@
 {
   "name": "KY开元",
   "type": "Card",
-  "logo": "logos/K36.png",
+  "logo": "logos/KY.png",
   "openDemo": "https://yl.ishxu648.com/",
   "demoUrl": "https://yl.ishxu648.com/",
   "showCard": false,
@@ -1392,7 +1392,7 @@
 {
   "name": "Ongaming",
   "type": "Live",
-  "logo": "logos/K36.png",
+  "logo": "logos/ongaming.png",
   "openDemo": "https://demo.oncasino.vip/",
   "demoUrl": "https://demo.oncasino.vip/",
   "showCard": false,
