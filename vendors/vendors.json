@@ -743,11 +743,11 @@
     "name": "PT",
     "type": "Slot",
     "logo": "logos/Playtech Logo.png",
-    "openDemo": "https://demo.playinasia.com/",
-    "demoUrl": "https://demo.playinasia.com/",
-    "showCard": false,
-    "needsPassword": false,
-    "passwordNote": ""
+    "openDemo": "http://www.agdragon.cc/",
+    "demoUrl": "http://www.agdragon.cc/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "帳號VVIPTEST 密碼123123"
   },   
   {
     "name": "YL",
