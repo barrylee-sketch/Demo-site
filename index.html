@@ -722,6 +722,58 @@ function parseCredentialInfo(v){
     }
   }
 
+  // 單一 token，視為只有密碼
+  // 例如: thb88888 / Test@123 / AAAA1111
+  const singleTokenPattern = /^[A-Za-z0-9@#$%^&*._!+=?-]+$/;
+
+  if (singleTokenPattern.test(note)) {
+    return {
+      username: '未提供',
+      password: note,
+      note: note
+    };
+  }
+
+  return {
+    username: '未提供',
+    password: '未提供',
+    note: note
+  };
+}
+
+  if (!rawNote) {
+    return {
+      username: v.needsPassword ? '未提供' : '不需要',
+      password: v.needsPassword ? '未提供' : '不需要',
+      note: '-'
+    };
+  }
+
+  const note = rawNote;
+
+  const patterns = [
+    /^(?<username>[^\/\s]+)\/(?<password>.+)$/i,
+    /^A:(?<username>[^\/]+)\/P:(?<password>.+)$/i,
+    /帳號[:：]?\s*(?<username>\S+)\s*密碼[:：]?\s*(?<password>\S+)/i,
+    /帐号[:：]?\s*(?<username>\S+)\s*密码[:：]?\s*(?<password>\S+)/i,
+    /用户名[:：]?\s*(?<username>\S+)\s*密码[:：]?\s*(?<password>\S+)/i,
+    /username\s*[:：]?\s*(?<username>\S+)\s*password\s*[:：]?\s*(?<password>\S+)/i,
+    /user\s*[:：]?\s*(?<username>\S+)\s*password\s*[:：]?\s*(?<password>\S+)/i,
+    /account\s*[:：]?\s*(?<username>\S+)\s*\/?\s*password\s*[:：]?\s*(?<password>\S+)/i,
+    /login id\s*[:：]?\s*(?<username>\S+)\s*\/\s*password\s*[:：]?\s*(?<password>\S+)/i
+  ];
+
+  for (const pattern of patterns) {
+    const match = note.match(pattern);
+    if (match && match.groups) {
+      return {
+        username: safeText(match.groups.username, '未提供'),
+        password: safeText(match.groups.password, '未提供'),
+        note: note
+      };
+    }
+  }
+
   const looksLikeSinglePassword =
     !note.includes(' ') &&
     !note.includes('/') &&
