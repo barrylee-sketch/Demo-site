@@ -1418,6 +1418,16 @@
   "showCard": false,
   "needsPassword": false,
   "passwordNote": ""
+}, 
+{
+  "name": "ATG",
+  "type": "Slot",
+  "logo": "",
+  "openDemo": "https://atg-games.com/zh-tw",
+  "demoUrl": "https://atg-games.com/zh-tw",
+  "showCard": false,
+  "needsPassword": false,
+  "passwordNote": ""
 },          
 {
   "name": "SABA",
