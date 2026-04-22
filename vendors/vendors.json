@@ -180,6 +180,16 @@
     "passwordNote": ""
   },
   {
+    "name": "InOut",
+    "type": "Slot",
+    "logo": "",
+    "demoUrl": "https://inout.games/games",
+    "openDemo": "https://inout.games/games",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": ""
+  },  
+  {
     "name": "Smartsoft",
     "type": "Slot",
     "logo": "logos/Smartsoft.png",
